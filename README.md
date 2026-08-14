@@ -105,8 +105,6 @@ A personal portfolio website is planned to showcase my education, skills, projec
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
-![Kavindu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kavisara-samarakoon&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kavisara-samarakoon&layout=compact&theme=tokyonight)
+I'm currently improving my GitHub profile by adding better project documentation, organizing repositories, and uploading practical networking, cybersecurity, and full-stack development work.
