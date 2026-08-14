@@ -1,16 +1,113 @@
-## Hi there 👋
+# Hi, I'm Kavindu Kavisara 👋
 
-<!--
-**kavisara-samarakoon/kavisara-samarakoon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Computer Networks student at NSBM Green University, Sri Lanka, also following the BIT External degree at the University of Moratuwa.
 
-Here are some ideas to get you started:
+My main interests are **computer networking, cybersecurity, network security, system administration, cloud technologies, and full-stack development**. I enjoy learning through practical projects, labs, and real-world technical experiments.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🎯 Current Focus
+
+- Learning advanced computer networking and cybersecurity concepts
+- Practicing network security using tools like pfSense, Snort, Wireshark, Kali Linux, and DVWA
+- Building full-stack projects using React, Next.js, Spring Boot, and PostgreSQL
+- Improving my skills in firewall configuration, secure system design, and ethical hacking fundamentals
+- Preparing for a career as a Cybersecurity Analyst and Network Engineer
+
+---
+
+## 🛠️ Technical Skills
+
+### Networking & Cybersecurity
+- Computer Networking
+- Network Security
+- Cybersecurity Fundamentals
+- Firewall Configuration
+- pfSense
+- Wireshark
+- Snort
+- Kali Linux
+- DVWA
+- VoIP / Asterisk
+- Linux Administration
+- Ethical Hacking Fundamentals
+
+### Programming & Web Development
+- Java
+- Spring Boot
+- JavaScript
+- TypeScript
+- React
+- Next.js
+- Node.js
+- Express.js
+- HTML
+- CSS
+- Tailwind CSS
+
+### Databases, Cloud & Tools
+- PostgreSQL
+- MySQL
+- Git & GitHub
+- Cisco Packet Tracer
+- Azure Fundamentals
+- VS Code
+- NetBeans
+
+---
+
+## 🚀 Projects
+
+### NEXORA
+A network-aware game deal and giveaway platform built using **Next.js, TypeScript, Spring Boot, and PostgreSQL**.
+
+> Currently private while development is in progress.
+
+### UniMateLK
+An academic group project developed for the DEA module, including source code and documentation.
+
+> Group project — repository includes project work and documentation.
+
+### Portfolio Website
+My personal developer portfolio website showcasing my education, skills, projects, and career direction.
+
+> Currently hosted on Vercel. GitHub source code will be uploaded later.
+
+---
+
+## 📌 What I'm Working On
+
+- Improving my GitHub profile and project documentation
+- Preparing to upload my portfolio website source code to GitHub
+- Continuing development on NEXORA as a private full-stack project
+- Building more networking and cybersecurity-focused practical labs
+- Strengthening my skills in secure web development and network defense
+
+---
+
+## 📚 Areas I'm Learning
+
+- Network Security
+- Firewall Configuration
+- Penetration Testing Fundamentals
+- Web Application Security
+- Linux System Administration
+- Cloud Computing
+- Full-Stack Application Development
+
+---
+
+## 📫 Connect With Me
+
+- Portfolio: https://kavindukavisara.vercel.app
+- GitHub: https://github.com/kavisara-samarakoon
+- LinkedIn: https://www.linkedin.com/in/kavisara-samarakoon
+- Email: kavisaraksamarakoon@gmail.com
+
+---
+
+## 📊 GitHub Stats
+
+![Kavindu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=kavisara-samarakoon&show_icons=true&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kavisara-samarakoon&layout=compact&theme=tokyonight)
