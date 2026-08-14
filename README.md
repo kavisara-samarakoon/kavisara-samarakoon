@@ -1,6 +1,6 @@
 # Hi, I'm Kavindu Kavisara 👋
 
-I'm a Computer Networks student at NSBM Green University, Sri Lanka, also following the BIT External degree at the University of Moratuwa.
+I'm a Computer Networks & Cybersecurity student at NSBM Green University, Sri Lanka, also following the BIT External degree at the University of Moratuwa.
 
 My main interests are **computer networking, cybersecurity, network security, system administration, cloud technologies, and full-stack development**. I enjoy learning through practical projects, labs, and real-world technical experiments.
 
@@ -10,8 +10,8 @@ My main interests are **computer networking, cybersecurity, network security, sy
 
 - Learning advanced computer networking and cybersecurity concepts
 - Practicing network security using tools like pfSense, Snort, Wireshark, Kali Linux, and DVWA
-- Building full-stack projects using React, Next.js, Spring Boot, and PostgreSQL
-- Improving my skills in firewall configuration, secure system design, and ethical hacking fundamentals
+- Building full-stack development skills using Java, Spring Boot, React, Next.js, and databases
+- Improving my knowledge in firewall configuration, secure system design, and ethical hacking fundamentals
 - Preparing for a career as a Cybersecurity Analyst and Network Engineer
 
 ---
@@ -69,16 +69,16 @@ An academic group project developed for the DEA module, including source code an
 > Group project — repository includes project work and documentation.
 
 ### Portfolio Website
-My personal developer portfolio website showcasing my education, skills, projects, and career direction.
+A personal portfolio website is planned to showcase my education, skills, projects, and career direction.
 
-> Currently hosted on Vercel. GitHub source code will be uploaded later.
+> Not hosted yet. GitHub repository will be created after development/upload is ready.
 
 ---
 
 ## 📌 What I'm Working On
 
 - Improving my GitHub profile and project documentation
-- Preparing to upload my portfolio website source code to GitHub
+- Preparing to build and upload my personal portfolio website
 - Continuing development on NEXORA as a private full-stack project
 - Building more networking and cybersecurity-focused practical labs
 - Strengthening my skills in secure web development and network defense
@@ -99,7 +99,6 @@ My personal developer portfolio website showcasing my education, skills, project
 
 ## 📫 Connect With Me
 
-- Portfolio: https://kavindukavisara.vercel.app
 - GitHub: https://github.com/kavisara-samarakoon
 - LinkedIn: https://www.linkedin.com/in/kavisara-samarakoon
 - Email: kavisaraksamarakoon@gmail.com
