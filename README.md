@@ -102,6 +102,7 @@ A personal portfolio website is planned to showcase my education, skills, projec
 - GitHub: https://github.com/kavisara-samarakoon
 - LinkedIn: https://www.linkedin.com/in/kavisara-samarakoon
 - Email: kavisaraksamarakoon@gmail.com
+- Portfolio: https://kavisara-samarakoon-portfolio.vercel.app
 
 ---
 
