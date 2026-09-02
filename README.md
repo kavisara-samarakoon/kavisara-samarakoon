@@ -50,63 +50,66 @@ I focus on connecting **networking, cybersecurity, systems administration, cloud
 
 ## 🚀 Featured Work
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🛡️ Network Security Lab Portfolio</h3>
-      <p>
-        A public GitHub portfolio documenting practical networking and cybersecurity labs using
-        FreeBSD, Asterisk VoIP, pfSense, Snort IDS/IPS, NAT, VPN concepts, and controlled security testing.
-      </p>
-      <p>
-        <b>Focus:</b> Network Security · Firewalling · IDS/IPS · VoIP · VPN · Technical Documentation
-      </p>
-      <a href="https://github.com/kavisara-samarakoon/network-security-lab-portfolio">
-        <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
-      </a>
-    </td>
-    <td width="50%">
-      <h3>🌐 Personal Portfolio Website</h3>
-      <p>
-        A modern responsive portfolio website presenting my background, skills, projects,
-        and career direction in cybersecurity, networking, systems, and full-stack development.
-      </p>
-      <p>
-        <b>Focus:</b> Frontend Development · UI/UX · Personal Branding · Responsive Design
-      </p>
-      <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
-        <img src="https://img.shields.io/badge/Live%20Portfolio-C9FF2E?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Portfolio" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🎮 NEXORA</h3>
-      <p>
-        A private full-stack game deals and giveaway discovery MVP with dashboard UI,
-        backend API foundation, authentication flow, wishlist features, alert concepts,
-        technical documentation, and CI/CD workflow usage.
-      </p>
-      <p>
-        <b>Focus:</b> Next.js · Spring Boot · API Design · Auth Foundation · GitHub Actions
-      </p>
-      <img src="https://img.shields.io/badge/Private%20Technical%20MVP-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Private Technical MVP" />
-    </td>
-    <td width="50%">
-      <h3>🎓 UniMateLK</h3>
-      <p>
-        An academic group project developed for coursework, including source code,
-        backend/frontend work, database usage, documentation, and team-based development.
-      </p>
-      <p>
-        <b>Focus:</b> Java · Academic Project · Team Development · Documentation
-      </p>
-      <a href="https://github.com/kavisara-samarakoon/unimatelk">
-        <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
-      </a>
-    </td>
-  </tr>
-</table>
+### 🛡️ Network Security Lab Portfolio
+
+<p align="center">
+  <img src="./assets/projects/network-security-lab-card.png" alt="Network Security Lab Portfolio project preview" width="100%" />
+</p>
+
+A public GitHub portfolio documenting my hands-on networking and cybersecurity lab work.  
+It includes practical labs using **FreeBSD, Asterisk VoIP, pfSense, Snort IDS/IPS, NAT, VPN concepts, and controlled security testing**.
+
+**Focus:** Network Security · Firewalling · IDS/IPS · VoIP · NAT · VPN · Technical Documentation
+
+<p>
+  <a href="https://github.com/kavisara-samarakoon/network-security-lab-portfolio">
+    <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
+  </a>
+</p>
+
+---
+
+### 🎮 NEXORA
+
+<p align="center">
+  <img src="./assets/projects/nexora-card.png" alt="NEXORA project preview" width="100%" />
+</p>
+
+**NEXORA** is a private full-stack game deals and giveaway discovery MVP with dashboard UI, backend API foundation, authentication flow, wishlist features, alert concepts, documentation, and CI/CD workflow usage.
+
+**Focus:** Next.js · Spring Boot · API Design · Auth Foundation · Wishlist · Alerts · GitHub Actions
+
+<p>
+  <img src="https://img.shields.io/badge/Private%20Technical%20MVP-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="Private Technical MVP" />
+</p>
+
+---
+
+### 🌐 Personal Portfolio Website
+
+A modern responsive portfolio website presenting my background, skills, projects, and career direction in cybersecurity, networking, systems, and full-stack development.
+
+**Focus:** Frontend Development · UI/UX · Personal Branding · Responsive Design
+
+<p>
+  <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Portfolio-C9FF2E?style=for-the-badge&logo=vercel&logoColor=black" alt="Live Portfolio" />
+  </a>
+</p>
+
+---
+
+### 🎓 UniMateLK
+
+An academic group project developed for coursework, including source code, backend/frontend work, database usage, documentation, and team-based development.
+
+**Focus:** Java · Academic Project · Team Development · Documentation
+
+<p>
+  <a href="https://github.com/kavisara-samarakoon/unimatelk">
+    <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
+  </a>
+</p>
 
 ---
 
@@ -115,13 +118,13 @@ I focus on connecting **networking, cybersecurity, systems administration, cloud
 ### Networking & Cybersecurity
 
 <p>
-  <img src="https://img.shields.io/badge/Computer%20Networking-0D1117?style=for-the-badge&logo=cisco&logoColor=C9FF2E" />
-  <img src="https://img.shields.io/badge/Network%20Security-0D1117?style=for-the-badge&logo=hackthebox&logoColor=C9FF2E" />
-  <img src="https://img.shields.io/badge/pfSense-0D1117?style=for-the-badge&logo=pfsense&logoColor=C9FF2E" />
-  <img src="https://img.shields.io/badge/Snort%20IDS%2FIPS-0D1117?style=for-the-badge&logo=suricata&logoColor=C9FF2E" />
-  <img src="https://img.shields.io/badge/FreeBSD-0D1117?style=for-the-badge&logo=freebsd&logoColor=C9FF2E" />
-  <img src="https://img.shields.io/badge/Asterisk%20VoIP-0D1117?style=for-the-badge&logo=asterisk&logoColor=C9FF2E" />
-  <img src="https://img.shields.io/badge/VPN%20%26%20NAT-0D1117?style=for-the-badge&logo=wireguard&logoColor=C9FF2E" />
+  <img src="https://img.shields.io/badge/Computer%20Networking-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Computer Networking" />
+  <img src="https://img.shields.io/badge/Network%20Security-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Network Security" />
+  <img src="https://img.shields.io/badge/pfSense-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="pfSense" />
+  <img src="https://img.shields.io/badge/Snort%20IDS%2FIPS-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Snort IDS/IPS" />
+  <img src="https://img.shields.io/badge/FreeBSD-0D1117?style=for-the-badge&logo=freebsd&logoColor=C9FF2E" alt="FreeBSD" />
+  <img src="https://img.shields.io/badge/Asterisk%20VoIP-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Asterisk VoIP" />
+  <img src="https://img.shields.io/badge/VPN%20%26%20NAT-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="VPN and NAT" />
 </p>
 
 ### Full-Stack Development
@@ -165,13 +168,9 @@ I focus on connecting **networking, cybersecurity, systems administration, cloud
 
 ## 📊 GitHub Activity
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=kavisara-samarakoon&show_icons=true&theme=github_dark&hide_border=true&title_color=C9FF2E&icon_color=C9FF2E" alt="Kavisara Samarakoon GitHub Stats" />
-</p>
+I use GitHub to document practical labs, build full-stack projects, track development milestones, and improve my technical portfolio step by step.
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kavisara-samarakoon&layout=compact&theme=github_dark&hide_border=true&title_color=C9FF2E" alt="Top Languages" />
-</p>
+My main focus is not only writing code, but also maintaining clear documentation, clean repositories, and reviewer-friendly project evidence.
 
 ---
 
@@ -211,8 +210,4 @@ My goal is to build a strong technical foundation through:
 
 <p align="center">
   <b>Networking · Cybersecurity · Secure Systems · Full-Stack Development · Technical Documentation</b>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9FF2E,100:0D1117&height=100&section=footer" alt="Footer" />
 </p>
