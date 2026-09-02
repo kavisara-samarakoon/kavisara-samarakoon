@@ -1,7 +1,7 @@
 <!-- GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:C9FF2E&height=180&section=header&text=Kavisara%20Samarakoon&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=Computer%20Networks%20Student%20%7C%20Cybersecurity%20%26%20Network%20Engineering%20Focus&descAlignY=58&descAlign=50" alt="Kavisara Samarakoon GitHub Banner" />
+  <img src="./assets/banner/github-profile-banner.png" alt="Kavisara Samarakoon GitHub Profile Banner" width="100%" />
 </p>
 
 <h1 align="center">Hi, I'm Kavisara Samarakoon 👋</h1>
