@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1000&color=C9FF2E&center=true&vCenter=true&width=750&lines=Building+practical+networking+and+security+labs;Developing+secure+full-stack+technical+projects;Learning+cybersecurity%2C+systems%2C+cloud%2C+and+DevOps" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1000&color=C9FF2E&center=true&vCenter=true&width=850&lines=Building+practical+networking+and+security+labs;Developing+SentinelLite+AI+defensive+CLI;Developing+secure+full-stack+technical+projects;Learning+cybersecurity%2C+systems%2C+cloud%2C+and+DevOps" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -40,8 +40,9 @@ I focus on connecting **networking, cybersecurity, systems administration, cloud
 
 ## 🎯 Current Focus
 
+- Developing **SentinelLite AI**, a public beta-stage defensive endpoint observation CLI
 - Building practical **networking and cybersecurity labs**
-- Improving skills in **network security, firewalls, IDS/IPS, VPN, and secure systems**
+- Improving skills in **Linux security, authentication logs, file integrity checks, rule-based detection, and defensive security tooling**
 - Developing **NEXORA**, a private full-stack technical MVP
 - Strengthening **Spring Boot, Next.js, API design, GitHub Actions, and CI/CD**
 - Preparing for a career as a **Cybersecurity Analyst and Network Engineer**
@@ -50,7 +51,34 @@ I focus on connecting **networking, cybersecurity, systems administration, cloud
 
 ## 🚀 Featured Work
 
-### 🛡️ Network Security Lab Portfolio
+### 🛡️ SentinelLite AI
+
+<p align="center">
+  <img src="./assets/projects/sentinellite-ai-validation-banner.png" alt="SentinelLite AI validation banner showing local tests and GitHub Actions CI" width="100%" />
+</p>
+
+**SentinelLite AI** is a public beta-stage defensive endpoint observation CLI built with Python for Linux-focused security learning, local blue-team analysis, and portfolio demonstration.
+
+It supports authentication log analysis, process observation, active network connection observation, selected file integrity checks, baseline-backed comparison, rule-based detection, deterministic risk scoring, JSON alert reports, local report history, TOML configuration, and local alert explanations.
+
+**Current release:** `v1.0.0-beta` GitHub pre-release  
+**Validation:** 597 automated tests passed, Ruff passed, pip check passed, and GitHub Actions CI passed with Python 3.11 and Python 3.14 validation.
+
+**Focus:** Python · Linux Security · Endpoint Observation · Auth Logs · File Integrity · Rule-Based Detection · JSON Reports · GitHub Actions
+
+<p>
+  <a href="https://github.com/kavisara-samarakoon/sentinellite-ai">
+    <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
+  </a>
+  <img src="https://img.shields.io/badge/v1.0.0--beta-GitHub%20Pre--Release-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="v1.0.0-beta GitHub Pre-Release" />
+  <img src="https://img.shields.io/badge/Defensive%20Only-Local%20CLI-0D1117?style=for-the-badge&logo=linux&logoColor=C9FF2E" alt="Defensive Only Local CLI" />
+</p>
+
+> SentinelLite AI is a local/on-demand defensive learning tool. It is not a production EDR, antivirus, malware remover, SOC platform, enterprise security tool, or real AI/LLM-powered product.
+
+---
+
+### 🧪 Network Security Lab Portfolio
 
 <p align="center">
   <img src="./assets/projects/network-security-lab-card.png" alt="Network Security Lab Portfolio project preview" width="100%" />
@@ -120,6 +148,8 @@ An academic group project developed for coursework, including source code, backe
 <p>
   <img src="https://img.shields.io/badge/Computer%20Networking-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Computer Networking" />
   <img src="https://img.shields.io/badge/Network%20Security-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Network Security" />
+  <img src="https://img.shields.io/badge/Linux%20Security-0D1117?style=for-the-badge&logo=linux&logoColor=C9FF2E" alt="Linux Security" />
+  <img src="https://img.shields.io/badge/Endpoint%20Observation-0D1117?style=for-the-badge&logo=gnubash&logoColor=C9FF2E" alt="Endpoint Observation" />
   <img src="https://img.shields.io/badge/pfSense-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="pfSense" />
   <img src="https://img.shields.io/badge/Snort%20IDS%2FIPS-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Snort IDS/IPS" />
   <img src="https://img.shields.io/badge/FreeBSD-0D1117?style=for-the-badge&logo=freebsd&logoColor=C9FF2E" alt="FreeBSD" />
@@ -136,7 +166,7 @@ An academic group project developed for coursework, including source code, backe
 ### Tools & Workflow
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,figma,postman,vscode,idea,vercel" alt="Tools and Workflow" />
+  <img src="https://skillicons.dev/icons?i=python,git,github,githubactions,linux,figma,postman,vscode,idea,vercel" alt="Tools and Workflow" />
 </p>
 
 ---
@@ -145,6 +175,7 @@ An academic group project developed for coursework, including source code, backe
 
 | Area | What I’m building |
 |---|---|
+| **Defensive Security Tooling** | SentinelLite AI beta-stage local CLI, auth log analysis, file integrity checks, rule-based detection, JSON reports |
 | **Network Security Labs** | pfSense firewalling, Snort IDS/IPS, NAT, VPN concepts, controlled testing |
 | **VoIP Systems** | FreeBSD + Asterisk PBX, SIP/PJSIP, SIP-TLS, ZRTP, voicemail, IVR |
 | **Full-Stack Projects** | Next.js frontend, Spring Boot backend, REST APIs, authentication foundations |
@@ -158,6 +189,8 @@ An academic group project developed for coursework, including source code, backe
 - Advanced computer networking concepts
 - Network security and firewall rule design
 - Linux system administration
+- Defensive endpoint observation concepts
+- Python security tooling foundations
 - Secure web application development
 - Spring Boot backend architecture
 - Next.js frontend development
@@ -170,7 +203,7 @@ An academic group project developed for coursework, including source code, backe
 
 I use GitHub to document practical labs, build full-stack projects, track development milestones, and improve my technical portfolio step by step.
 
-My main focus is not only writing code, but also maintaining clear documentation, clean repositories, and reviewer-friendly project evidence.
+My main focus is not only writing code, but also maintaining clear documentation, clean repositories, validation evidence, and reviewer-friendly project structure.
 
 ---
 
@@ -183,6 +216,7 @@ My goal is to build a strong technical foundation through:
 - practical networking labs,
 - secure system design,
 - defensive cybersecurity learning,
+- local security tooling,
 - full-stack development projects,
 - technical documentation,
 - and continuous hands-on practice.
@@ -209,5 +243,5 @@ My goal is to build a strong technical foundation through:
 ---
 
 <p align="center">
-  <b>Networking · Cybersecurity · Secure Systems · Full-Stack Development · Technical Documentation</b>
+  <b>Networking · Cybersecurity · Defensive Security Tooling · Secure Systems · Full-Stack Development · Technical Documentation</b>
 </p>
