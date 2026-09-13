@@ -34,7 +34,7 @@ I am a **BSc (Hons) Computer Networks undergraduate at NSBM Green University**, 
 
 My main career direction is **Cybersecurity Analysis and Network Engineering**. I enjoy learning by building practical labs, testing real configurations, documenting technical work, and developing secure full-stack projects.
 
-I focus on connecting **networking, cybersecurity, systems administration, cloud fundamentals, and software development** into practical project-based learning.
+I focus on connecting **networking, cybersecurity, Linux systems, defensive security tooling, ARM64 lab validation, local-first workflow systems, and software development** into practical project-based learning.
 
 ---
 
@@ -74,7 +74,7 @@ It collects selected host facts when a command is run, applies transparent rules
   <a href="https://github.com/kavisara-samarakoon/sentinellite-ai/releases/tag/v1.2.0-beta">
     <img src="https://img.shields.io/badge/v1.2.0--beta-GitHub%20Pre--Release-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="v1.2.0-beta GitHub Pre-Release" />
   </a>
-  <img src="https://img.shields.io/badge/Defensive%20Only-Local%20CLI-0D1117?style=for-the-badge&logo=linux&logoColor=C9FF2E" alt="Defensive Only Local CLI" />
+  <img src="https://img.shields.io/badge/Defensive%20Only%20Local%20CLI-0D1117?style=for-the-badge&logo=linux&logoColor=C9FF2E" alt="Defensive Only Local CLI" />
 </p>
 
 > SentinelLite AI is a local/on-demand defensive learning tool. It is not a production EDR, antivirus, malware remover, SIEM/SOC platform, enterprise security tool, live monitoring daemon, public scanner, exploit tool, automatic remediation tool, or real AI/LLM-powered product.
@@ -103,9 +103,9 @@ It is designed for students, lecturers, and security learners who want reproduci
     <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
   </a>
   <a href="https://github.com/kavisara-samarakoon/arm-secnet/releases/tag/v1.1.0-sentinellite-dashboard-lab">
-    <img src="https://img.shields.io/badge/V1.1.0-SentinelLite%20Dashboard%20Lab-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="ARM-SecNet V1.1.0 SentinelLite Dashboard Lab" />
+    <img src="https://img.shields.io/badge/V1.1.0%20SentinelLite%20Dashboard%20Lab-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="ARM-SecNet V1.1.0 SentinelLite Dashboard Lab" />
   </a>
-  <img src="https://img.shields.io/badge/ARM64-Defensive%20Labs-0D1117?style=for-the-badge&logo=ubuntu&logoColor=C9FF2E" alt="ARM64 Defensive Labs" />
+  <img src="https://img.shields.io/badge/ARM64%20Defensive%20Labs-0D1117?style=for-the-badge&logo=ubuntu&logoColor=C9FF2E" alt="ARM64 Defensive Labs" />
 </p>
 
 > ARM-SecNet is a defensive education and lab framework. It is not a production EDR, antivirus, SIEM/SOC platform, malware remover, offensive toolkit, public scanner, automatic remediation tool, or universal ARM64 compatibility proof.
@@ -136,9 +136,9 @@ The current public release provides a local MVP desktop checkpoint with a macOS 
     <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
   </a>
   <a href="https://github.com/kavisara-samarakoon/ghost/releases/tag/v0.3.0-alpha">
-    <img src="https://img.shields.io/badge/v0.3.0--alpha-Local%20MVP-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GHOST v0.3.0-alpha Local MVP" />
+    <img src="https://img.shields.io/badge/v0.3.0--alpha%20Local%20MVP-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GHOST v0.3.0-alpha Local MVP" />
   </a>
-  <img src="https://img.shields.io/badge/Local--First-Workflow%20Assistant-0D1117?style=for-the-badge&logo=tauri&logoColor=C9FF2E" alt="Local-First Workflow Assistant" />
+  <img src="https://img.shields.io/badge/Local--First%20Workflow%20Assistant-0D1117?style=for-the-badge&logo=tauri&logoColor=C9FF2E" alt="Local-First Workflow Assistant" />
 </p>
 
 > GHOST is a public alpha local MVP. The desktop app does not run shell commands, invoke the Python CLI, call AI APIs, call network services, or automatically publish, deploy, merge, push, tag, or release. Future roadmap items are planned directions, not current implemented features.
@@ -178,41 +178,48 @@ It is designed as a secure, network-aware game deals intelligence platform conce
 
 ## 🛠️ Technical Stack
 
-### Networking & Cybersecurity
+### Defensive Security, Networking & Labs
 
 <p>
   <img src="https://img.shields.io/badge/Computer%20Networking-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Computer Networking" />
   <img src="https://img.shields.io/badge/Network%20Security-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Network Security" />
   <img src="https://img.shields.io/badge/Linux%20Security-0D1117?style=for-the-badge&logo=linux&logoColor=C9FF2E" alt="Linux Security" />
   <img src="https://img.shields.io/badge/Endpoint%20Observation-0D1117?style=for-the-badge&logo=gnubash&logoColor=C9FF2E" alt="Endpoint Observation" />
-  <img src="https://img.shields.io/badge/File%20Integrity-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="File Integrity" />
-  <img src="https://img.shields.io/badge/Rule--Based%20Detection-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Rule-Based Detection" />
+  <img src="https://img.shields.io/badge/File%20Integrity-0D1117?style=for-the-badge&logo=json&logoColor=C9FF2E" alt="File Integrity" />
+  <img src="https://img.shields.io/badge/Rule--Based%20Detection-0D1117?style=for-the-badge&logo=gnubash&logoColor=C9FF2E" alt="Rule-Based Detection" />
   <img src="https://img.shields.io/badge/ARM64%20Labs-0D1117?style=for-the-badge&logo=ubuntu&logoColor=C9FF2E" alt="ARM64 Labs" />
-  <img src="https://img.shields.io/badge/pfSense-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="pfSense" />
+  <img src="https://img.shields.io/badge/pfSense-0D1117?style=for-the-badge&logo=pfsense&logoColor=C9FF2E" alt="pfSense" />
   <img src="https://img.shields.io/badge/Snort%20IDS%2FIPS-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Snort IDS/IPS" />
   <img src="https://img.shields.io/badge/FreeBSD-0D1117?style=for-the-badge&logo=freebsd&logoColor=C9FF2E" alt="FreeBSD" />
-  <img src="https://img.shields.io/badge/Asterisk%20VoIP-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="Asterisk VoIP" />
+  <img src="https://img.shields.io/badge/Asterisk%20VoIP-0D1117?style=for-the-badge&logo=asterisk&logoColor=C9FF2E" alt="Asterisk VoIP" />
   <img src="https://img.shields.io/badge/VPN%20%26%20NAT-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="VPN and NAT" />
 </p>
 
-### Software Development
+### Languages, Frameworks & Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,java,spring,php,python,rust,mysql,postgres" alt="Software Development Skills" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,java,spring,php,python,rust,mysql,postgres" alt="Languages, Frameworks and Databases" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Python%20Security%20Tooling-0D1117?style=for-the-badge&logo=python&logoColor=C9FF2E" alt="Python Security Tooling" />
+  <img src="https://img.shields.io/badge/Rust%20Systems%20%26%20Desktop-0D1117?style=for-the-badge&logo=rust&logoColor=C9FF2E" alt="Rust Systems and Desktop Development" />
+  <img src="https://img.shields.io/badge/TypeScript%20Frontend%20Apps-0D1117?style=for-the-badge&logo=typescript&logoColor=C9FF2E" alt="TypeScript Frontend Apps" />
+  <img src="https://img.shields.io/badge/Java%20Spring%20Boot-0D1117?style=for-the-badge&logo=springboot&logoColor=C9FF2E" alt="Java Spring Boot" />
 </p>
 
 ### Tools, Desktop & Workflow
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,figma,postman,vscode,idea,vercel,vite" alt="Tools and Workflow" />
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,linux,figma,postman,vscode,idea,vercel,vite" alt="Tools, Desktop and Workflow" />
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Tauri-0D1117?style=for-the-badge&logo=tauri&logoColor=C9FF2E" alt="Tauri" />
-  <img src="https://img.shields.io/badge/UTM-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="UTM" />
-  <img src="https://img.shields.io/badge/macOS-0D1117?style=for-the-badge&logo=apple&logoColor=C9FF2E" alt="macOS" />
-  <img src="https://img.shields.io/badge/GitHub%20Releases-0D1117?style=for-the-badge&logo=github&logoColor=C9FF2E" alt="GitHub Releases" />
-  <img src="https://img.shields.io/badge/Technical%20Documentation-0D1117?style=for-the-badge&logo=markdown&logoColor=C9FF2E" alt="Technical Documentation" />
+  <img src="https://img.shields.io/badge/Tauri%20Desktop%20Apps-0D1117?style=for-the-badge&logo=tauri&logoColor=C9FF2E" alt="Tauri Desktop Apps" />
+  <img src="https://img.shields.io/badge/UTM%20ARM64%20Virtualization-0D1117?style=for-the-badge&logoColor=C9FF2E" alt="UTM ARM64 Virtualization" />
+  <img src="https://img.shields.io/badge/macOS%20Apple%20Silicon-0D1117?style=for-the-badge&logo=apple&logoColor=C9FF2E" alt="macOS Apple Silicon" />
+  <img src="https://img.shields.io/badge/GitHub%20Releases%20Release%20Checkpoints-0D1117?style=for-the-badge&logo=github&logoColor=C9FF2E" alt="GitHub Releases and Release Checkpoints" />
+  <img src="https://img.shields.io/badge/Technical%20Documentation%20README%20%26%20Reports-0D1117?style=for-the-badge&logo=markdown&logoColor=C9FF2E" alt="Technical Documentation README and Reports" />
 </p>
 
 ---
