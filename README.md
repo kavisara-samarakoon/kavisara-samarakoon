@@ -293,7 +293,7 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 
 # 🛠️ Technical Stack
 
-<details>
+<details open>
 <summary><b>🛡️ Defensive Security, Networking & Labs</b></summary>
 
 <br>
@@ -315,7 +315,7 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 
 </details>
 
-<details>
+<details open>
 <summary><b>💻 Languages, Frameworks & Databases</b></summary>
 
 <br>
@@ -333,7 +333,7 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 
 </details>
 
-<details>
+<details open>
 <summary><b>⚙️ Tools, Desktop & Workflow</b></summary>
 
 <br>
