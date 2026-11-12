@@ -435,6 +435,20 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 
 ---
 
+## 📊 GitHub Analytics
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/github-analytics-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner/github-analytics-light.svg" />
+    <img src="./assets/banner/github-analytics-dark.svg" alt="GitHub snapshot as of 13 November 2026: 9 public repositories, featuring SentinelLite AI, ARM-SecNet and GHOST, focused on security, Linux, ARM64 and local-first development." width="100%" />
+  </picture>
+</p>
+
+<sub>Public repository snapshot (13 November 2026), not live commit, language, or contribution statistics.</sub>
+
+---
+
 # 📚 More About My Work
 
 <p align="center">
