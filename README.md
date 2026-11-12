@@ -497,3 +497,13 @@ My goal is to build a strong technical foundation through:
 <p align="center">
   <b>Cybersecurity · Network Engineering · Defensive Linux Tooling · ARM64 Labs · Secure Software</b>
 </p>
+
+<!-- Animated Cybersecurity Footer -->
+
+<p align="center">
+  <img
+    src="./assets/banner/github-cyber-footer.svg"
+    alt="Animated cybersecurity footer — Kavisara Samarakoon"
+    width="100%"
+  />
+</p>
