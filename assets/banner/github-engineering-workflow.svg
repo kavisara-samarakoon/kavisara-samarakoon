@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 150" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering workflow</title>
+  <desc id="desc">A five-stage approach: design, build, test, document, and review. No claim of automatic execution.</desc>
+  <defs>
+    <linearGradient id="workflowRail" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#C9FF2E" stop-opacity="0"/>
+      <stop offset="16%" stop-color="#C9FF2E" stop-opacity=".4"/>
+      <stop offset="84%" stop-color="#65FFDA" stop-opacity=".38"/>
+      <stop offset="100%" stop-color="#65FFDA" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes flowSignal { from { stroke-dashoffset: 1040; } to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: no-preference) {
+        .flowSignal { animation: flowSignal 18s linear infinite; }
+      }
+    </style>
+  </defs>
+  <text x="42" y="26" font-family="Arial,Helvetica,sans-serif" fill="#C9FF2E" font-size="16" letter-spacing="2" opacity=".85">ENGINEERING APPROACH</text>
+  <text x="42" y="144" font-family="Arial,Helvetica,sans-serif" fill="#92AFA1" font-size="16">Practical labs · documented evidence · controlled changes</text>
+  <path d="M60 77 H1040" stroke="url(#workflowRail)" stroke-width="1.8" fill="none"/>
+  <path d="M60 77 H1040" class="flowSignal" stroke="#C9FF2E" stroke-opacity=".55" stroke-width="2" stroke-dasharray="14 1030" fill="none"/>
+  <circle cx="100" cy="77" r="20" fill="#0D1512" stroke="#C9FF2E" stroke-opacity=".68" stroke-width="1.5"/>
+  <text x="100" y="83" text-anchor="middle" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#C9FF2E">1</text>
+  <text x="100" y="117" text-anchor="middle" font-size="19" font-weight="600" font-family="Arial,Helvetica,sans-serif" fill="#C9D8D0">DESIGN</text>
+  <circle cx="325" cy="77" r="20" fill="#0D1512" stroke="#C9FF2E" stroke-opacity=".68" stroke-width="1.5"/>
+  <text x="325" y="83" text-anchor="middle" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#C9FF2E">2</text>
+  <text x="325" y="117" text-anchor="middle" font-size="19" font-weight="600" font-family="Arial,Helvetica,sans-serif" fill="#C9D8D0">BUILD</text>
+  <circle cx="550" cy="77" r="20" fill="#0D1512" stroke="#C9FF2E" stroke-opacity=".68" stroke-width="1.5"/>
+  <text x="550" y="83" text-anchor="middle" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#C9FF2E">3</text>
+  <text x="550" y="117" text-anchor="middle" font-size="19" font-weight="600" font-family="Arial,Helvetica,sans-serif" fill="#C9D8D0">TEST</text>
+  <circle cx="775" cy="77" r="20" fill="#0D1512" stroke="#C9FF2E" stroke-opacity=".68" stroke-width="1.5"/>
+  <text x="775" y="83" text-anchor="middle" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#C9FF2E">4</text>
+  <text x="775" y="117" text-anchor="middle" font-size="19" font-weight="600" font-family="Arial,Helvetica,sans-serif" fill="#C9D8D0">DOCUMENT</text>
+  <circle cx="1000" cy="77" r="20" fill="#0D1512" stroke="#65FFDA" stroke-opacity=".68" stroke-width="1.5"/>
+  <text x="1000" y="83" text-anchor="middle" font-size="17" font-weight="700" font-family="Arial,Helvetica,sans-serif" fill="#65FFDA">5</text>
+  <text x="1000" y="117" text-anchor="middle" font-size="19" font-weight="600" font-family="Arial,Helvetica,sans-serif" fill="#C9D8D0">REVIEW</text>
+</svg>
