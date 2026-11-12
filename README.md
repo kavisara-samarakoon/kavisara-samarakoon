@@ -3,40 +3,54 @@
 
 <div align="center">
 
+  <!-- Animated Cybersecurity Header -->
   <img
     src="./assets/banner/github-cyber-header.svg"
-    alt="Kavisara Samarakoon | Cybersecurity and Network Engineering"
+    alt="Kavisara Samarakoon — Cybersecurity and Network Engineering"
     width="100%"
   />
 
+  
+  <h1>Hi, I'm Kavisara Samarakoon 👋</h1>
+
+</div>
+
+<div align="center">
+
+
+  <p>
+    <b>Computer Networks Student</b> ·
+    <b>Cybersecurity & Network Engineering Focus</b> ·
+    <b>Secure Full-Stack Development</b>
+  </p>
+
+  <!-- Animated Technical Focus -->
   <p>
     <img
-      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=1200&color=C9FF2E&center=true&vCenter=true&width=780&lines=Building+defensive+Linux+security+tools;Exploring+network+security+and+ARM64+labs;Developing+secure+local-first+software"
+      src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1000&color=C9FF2E&center=true&vCenter=true&width=900&lines=Building+defensive+Linux+security+tooling;Building+ARM64-first+cybersecurity+labs;Developing+local-first+workflow+assistants;Documenting+secure+full-stack+technical+projects;Learning+cybersecurity%2C+systems%2C+cloud%2C+and+DevOps"
       alt="Current technical focus"
     />
   </p>
 
-  <p>
-    <a href="#-about-me">About</a>
-    &nbsp;·&nbsp;
-    <a href="#-featured-work">Projects</a>
-    &nbsp;·&nbsp;
-    <a href="#-technical-stack">Technical Stack</a>
-    &nbsp;·&nbsp;
-    <a href="#-more-about-my-work">More</a>
-    &nbsp;·&nbsp;
-    <a href="#-connect-with-me">Contact</a>
-  </p>
-
+  <!-- Professional Links -->
   <p>
     <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
-      <img src="https://img.shields.io/badge/Portfolio-C9FF2E?style=flat-square&logo=vercel&logoColor=black" alt="Portfolio" />
+      <img
+        src="https://img.shields.io/badge/Portfolio-C9FF2E?style=for-the-badge&logo=vercel&logoColor=black"
+        alt="Portfolio"
+      />
     </a>
     <a href="https://www.linkedin.com/in/kavisara-samarakoon">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img
+        src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+        alt="LinkedIn"
+      />
     </a>
     <a href="mailto:kavisaraksamarakoon@gmail.com">
-      <img src="https://img.shields.io/badge/Email-252C32?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+      <img
+        src="https://img.shields.io/badge/Email-ffffff?style=for-the-badge&logo=gmail&logoColor=black"
+        alt="Email"
+      />
     </a>
   </p>
 
@@ -475,7 +489,7 @@ My goal is to build a strong technical foundation through:
 
 ---
 
-# 📫 Connect With Me
+<h1 align="center">📫 Connect With Me</h1>
 
 <p align="center">
   <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
