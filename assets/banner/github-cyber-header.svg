@@ -1,130 +1,307 @@
-
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 370" role="img" aria-labelledby="title desc">
   <title id="title">Kavisara Samarakoon — Cybersecurity and Network Engineering</title>
-  <desc id="desc">Dark cybersecurity banner with lime KS mark, connected nodes, and a soft transparent lower edge.</desc>
+  <desc id="desc">Animated cybersecurity banner with moving network pulses, glowing security shield, floating particles, and flowing neon waves.</desc>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#07100c"/>
-      <stop offset=".60" stop-color="#08120f"/>
-      <stop offset="1" stop-color="#101b16"/>
-    </linearGradient>
-
-    <linearGradient id="bottomFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="white"/>
-      <stop offset=".73" stop-color="white"/>
-      <stop offset="1" stop-color="black"/>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#050B09"/>
+      <stop offset="55%" stop-color="#07100C"/>
+      <stop offset="100%" stop-color="#0B1511"/>
     </linearGradient>
 
     <linearGradient id="limeLine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C9FF2E" stop-opacity="0"/>
-      <stop offset=".28" stop-color="#C9FF2E" stop-opacity=".55"/>
-      <stop offset=".75" stop-color="#C9FF2E" stop-opacity=".25"/>
-      <stop offset="1" stop-color="#C9FF2E" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#C9FF2E" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#C9FF2E" stop-opacity=".75"/>
+      <stop offset="80%" stop-color="#C9FF2E" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#C9FF2E" stop-opacity="0"/>
     </linearGradient>
 
-    <linearGradient id="waveFill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#C9FF2E" stop-opacity=".14"/>
-      <stop offset="1" stop-color="#C9FF2E" stop-opacity="0"/>
+    <linearGradient id="softWave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C9FF2E" stop-opacity=".14"/>
+      <stop offset="100%" stop-color="#C9FF2E" stop-opacity="0"/>
     </linearGradient>
 
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M42 0H0V42" fill="none" stroke="#B1D8C1" stroke-opacity=".07" stroke-width="1"/>
+    <linearGradient id="softWave2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#65FFDA" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#65FFDA" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="shieldGlowGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E7FF93"/>
+      <stop offset="100%" stop-color="#B8FF22"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#B7D1C3" stroke-opacity=".06" stroke-width="1"/>
     </pattern>
 
-    <mask id="edge">
-      <rect width="1400" height="370" fill="url(#bottomFade)"/>
-    </mask>
-
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="4"/>
+    <filter id="glowSoft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+
+    <filter id="glowStrong" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="shieldClip">
+      <path d="M1205 92 L1280 134 L1280 218 L1205 260 L1130 218 L1130 134 Z"/>
+    </clipPath>
   </defs>
 
-  <g mask="url(#edge)">
-    <rect width="1400" height="370" fill="url(#background)"/>
-    <rect width="1400" height="370" fill="url(#grid)"/>
+  <!-- Background -->
+  <rect width="1400" height="370" fill="url(#bgGrad)"/>
+  <rect width="1400" height="370" fill="url(#grid)"/>
 
-    <g fill="none" stroke="#8EBB6D" stroke-opacity=".13" stroke-width="1.3">
-      <path d="M0 78H120l25 23h140"/>
-      <path d="M0 105H91l38 40h88"/>
-      <path d="M0 254h135l29-30h92"/>
-      <path d="M1075 35h155l39 32h131"/>
-      <path d="M1150 308h130l34-28h86"/>
-    </g>
+  <!-- Subtle background glow -->
+  <ellipse cx="1180" cy="180" rx="220" ry="120" fill="#B8FF22" opacity=".05" filter="url(#glowStrong)">
+    <animate attributeName="opacity" values=".03;.07;.03" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
 
-    <g fill="#B7F52E" opacity=".28">
-      <circle cx="120" cy="78" r="3"/>
-      <circle cx="285" cy="101" r="3"/>
-      <circle cx="217" cy="145" r="2.5"/>
-      <circle cx="256" cy="224" r="2.5"/>
-    </g>
-
-    <g fill="none" stroke="#B4FC33" stroke-opacity=".23" stroke-width="1.2">
-      <path d="M1050 23l118 56 109-46 123 82"/>
-      <path d="M1010 142l158-63 70 85 139-12"/>
-      <path d="M1060 241l178-77 140 86"/>
-      <path d="M1123 301l115-137 162 17"/>
-      <path d="M1010 142l50 99 63 60"/>
-    </g>
-
-    <g fill="#C9FF2E">
-      <circle cx="1168" cy="79" r="4"/>
-      <circle cx="1277" cy="33" r="3"/>
-      <circle cx="1238" cy="164" r="4"/>
-      <circle cx="1377" cy="152" r="3"/>
-      <circle cx="1060" cy="241" r="3"/>
-      <circle cx="1378" cy="250" r="3"/>
-    </g>
-
-    <g fill="#C9FF2E" opacity=".24" filter="url(#glow)">
-      <circle cx="1168" cy="79" r="9"/>
-      <circle cx="1238" cy="164" r="10"/>
-    </g>
-
-    <path d="M1205 93l73 42v80l-73 42-73-42v-80z"
-          fill="#08140e" stroke="#C9FF2E" stroke-width="2.4"/>
-
-    <path d="M1205 107l61 35v66l-61 35-61-35v-66z"
-          fill="none" stroke="#C9FF2E" stroke-opacity=".26" stroke-width="1.2"/>
-
-    <g stroke="#C9FF2E" stroke-width="4" stroke-linecap="round"
-       stroke-linejoin="round" fill="none">
-      <rect x="1181" y="166" width="48" height="39" rx="7"/>
-      <path d="M1190 166v-11a15 15 0 0 1 30 0v11"/>
-    </g>
-
-    <circle cx="1205" cy="186" r="4" fill="#C9FF2E"/>
-    <path d="M1205 189v7" stroke="#C9FF2E" stroke-width="3"/>
+  <!-- Left decorative circuits -->
+  <g fill="none" stroke="#8BAE8E" stroke-opacity=".18" stroke-width="1.2">
+    <path d="M0 60H110l20 20h90"/>
+    <path d="M0 92H80l35 35h60"/>
+    <path d="M0 246H120l25-22h75"/>
+    <path d="M0 280H95l40-30h72"/>
   </g>
 
-  <rect x="65" y="112" width="95" height="95" rx="19" fill="#C9FF2E"/>
-  <rect x="69" y="116" width="87" height="87" rx="16"
-        fill="none" stroke="#E9FFA1" stroke-width="2"/>
+  <!-- Right decorative circuits -->
+  <g fill="none" stroke="#8BAE8E" stroke-opacity=".15" stroke-width="1.2">
+    <path d="M1030 40H1160l28 24h120"/>
+    <path d="M1070 73H1198l22 22h180"/>
+    <path d="M1110 300H1240l28-26h132"/>
+  </g>
 
-  <text x="112" y="175" text-anchor="middle" fill="#07100c"
-        font-size="46" font-weight="800"
-        font-family="Arial, Helvetica, sans-serif">KS</text>
+  <!-- Moving pulses on left -->
+  <path d="M0 60H110l20 20h90" fill="none" stroke="#C9FF2E" stroke-width="2" stroke-dasharray="12 170" opacity=".65">
+    <animate attributeName="stroke-dashoffset" from="182" to="0" dur="5s" repeatCount="indefinite"/>
+  </path>
 
-  <path d="M187 112V207" stroke="#C9FF2E" stroke-opacity=".9" stroke-width="2"/>
+  <path d="M0 246H120l25-22h75" fill="none" stroke="#65FFDA" stroke-width="2" stroke-dasharray="10 190" opacity=".55">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="7s" repeatCount="indefinite"/>
+  </path>
 
-  <text x="218" y="154" fill="#F5FAF7" font-size="52" font-weight="700"
-        font-family="Arial, Helvetica, sans-serif">Kavisara Samarakoon</text>
+  <!-- Main network lines -->
+  <g fill="none" stroke="#B4FC33" stroke-opacity=".23" stroke-width="1.4">
+    <path d="M1020 55L1115 96L1200 58L1285 94L1368 38"/>
+    <path d="M995 145L1108 102L1200 165L1280 118L1380 154"/>
+    <path d="M1040 250L1132 198L1220 248L1312 210L1380 250"/>
+    <path d="M1118 305L1192 248L1290 295L1380 275"/>
+    <path d="M995 145L1040 250L1118 305"/>
+    <path d="M1200 58L1200 165L1220 248"/>
+  </g>
 
-  <text x="220" y="194" fill="#D9E4DF" font-size="27"
-        font-family="Arial, Helvetica, sans-serif">Computer Networks Undergraduate</text>
+  <!-- Animated signal pulses -->
+  <circle r="4.5" fill="#C9FF2E" filter="url(#glowSoft)" opacity="0">
+    <animateMotion path="M1020 55 L1115 96 L1200 58 L1285 94 L1368 38" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
 
-  <text x="220" y="238" fill="#B7C9BD" font-size="21"
-        font-family="Arial, Helvetica, sans-serif">Cybersecurity  •  Network Engineering  •  Secure Software</text>
+  <circle r="4" fill="#65FFDA" filter="url(#glowSoft)" opacity="0">
+    <animateMotion path="M995 145 L1108 102 L1200 165 L1280 118 L1380 154" dur="7.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="7.2s" repeatCount="indefinite"/>
+  </circle>
 
-  <path d="M220 263H895" fill="none" stroke="url(#limeLine)" stroke-width="2"/>
+  <circle r="4.2" fill="#C9FF2E" filter="url(#glowSoft)" opacity="0">
+    <animateMotion path="M1040 250 L1132 198 L1220 248 L1312 210 L1380 250" dur="6.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.88;1" dur="6.1s" repeatCount="indefinite"/>
+  </circle>
 
-  <text x="220" y="295" fill="#AFC0B6" font-size="18"
-        font-family="Arial, Helvetica, sans-serif">NSBM Green University  |  BIT External — University of Moratuwa</text>
+  <circle r="3.5" fill="#9BFF6A" filter="url(#glowSoft)" opacity="0">
+    <animateMotion path="M995 145 L1040 250 L1118 305" dur="4.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.15;.85;1" dur="4.8s" repeatCount="indefinite"/>
+  </circle>
 
-  <path d="M0 323 C230 305 400 345 640 329 S1040 306 1400 329"
-        fill="none" stroke="url(#limeLine)" stroke-width="1.8"/>
+  <!-- Twinkling nodes -->
+  <g fill="#C9FF2E">
+    <circle cx="1115" cy="96" r="3.5">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="58" r="4">
+      <animate attributeName="opacity" values="1;.4;1" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1285" cy="94" r="3.5">
+      <animate attributeName="opacity" values=".4;1;.4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1368" cy="38" r="4">
+      <animate attributeName="opacity" values="1;.5;1" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1108" cy="102" r="3">
+      <animate attributeName="opacity" values=".4;.95;.4" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="165" r="4">
+      <animate attributeName="opacity" values=".45;1;.45" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1280" cy="118" r="3">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1380" cy="154" r="3.5">
+      <animate attributeName="opacity" values=".5;1;.5" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1132" cy="198" r="3.5">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1220" cy="248" r="3.8">
+      <animate attributeName="opacity" values=".45;1;.45" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1312" cy="210" r="3">
+      <animate attributeName="opacity" values=".4;.95;.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1380" cy="250" r="3.5">
+      <animate attributeName="opacity" values=".5;1;.5" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1118" cy="305" r="3">
+      <animate attributeName="opacity" values=".3;1;.3" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1290" cy="295" r="3.2">
+      <animate attributeName="opacity" values=".5;1;.5" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-  <path d="M0 327 C230 310 400 348 640 334 S1040 315 1400 337 V370 H0Z"
-        fill="url(#waveFill)"/>
+  <!-- Floating particles -->
+  <g>
+    <circle cx="1090" cy="85" r="2.3" fill="#C9FF2E" opacity=".45">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 6 -12; 0 -22; -4 -30; 0 -38" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".1;.6;.2;0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1330" cy="220" r="2" fill="#65FFDA" opacity=".45">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -5 -10; 4 -18; 0 -26" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".1;.5;.25;0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1170" cy="260" r="1.8" fill="#DFFF6E" opacity=".4">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 3 -8; -2 -15; 0 -24" dur="6.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".05;.45;.2;0" dur="6.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1260" cy="70" r="2.1" fill="#A9FF2A" opacity=".45">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -4 -10; 5 -18; 0 -28" dur="7.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".05;.55;.2;0" dur="7.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Shield group -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="5.5s" repeatCount="indefinite"/>
+
+    <!-- Outer glow -->
+    <path d="M1205 92 L1280 134 L1280 218 L1205 260 L1130 218 L1130 134 Z"
+          fill="#C9FF2E" opacity=".12" filter="url(#glowStrong)">
+      <animate attributeName="opacity" values=".07;.22;.07" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Shield -->
+    <path d="M1205 92 L1280 134 L1280 218 L1205 260 L1130 218 L1130 134 Z"
+          fill="#08120D" stroke="url(#shieldGlowGrad)" stroke-width="2.6"/>
+    <path d="M1205 108 L1264 142 L1264 210 L1205 244 L1146 210 L1146 142 Z"
+          fill="none" stroke="#C9FF2E" stroke-opacity=".35" stroke-width="1.4"/>
+
+    <!-- Scan line inside shield -->
+    <g clip-path="url(#shieldClip)">
+      <rect x="1118" y="120" width="175" height="18" fill="#E7FF93" opacity=".14" filter="url(#glowSoft)">
+        <animate attributeName="y" values="118;228;118" dur="4.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values=".05;.18;.05" dur="4.5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Circuit lines inside shield -->
+    <g fill="none" stroke="#C9FF2E" stroke-width="2.3" stroke-linecap="round">
+      <path d="M1170 144V191"/>
+      <path d="M1192 136V160"/>
+      <path d="M1218 136V160"/>
+      <path d="M1240 144V191"/>
+      <path d="M1168 170H1188"/>
+      <path d="M1222 170H1242"/>
+      <path d="M1180 185L1192 176"/>
+      <path d="M1230 176L1242 185"/>
+      <path d="M1205 128V148"/>
+      <path d="M1170 191L1160 200"/>
+      <path d="M1192 160L1180 170"/>
+      <path d="M1218 160L1230 170"/>
+      <path d="M1240 191L1250 200"/>
+      <circle cx="1160" cy="200" r="3" fill="#C9FF2E"/>
+      <circle cx="1180" cy="170" r="3" fill="#C9FF2E"/>
+      <circle cx="1230" cy="170" r="3" fill="#C9FF2E"/>
+      <circle cx="1250" cy="200" r="3" fill="#C9FF2E"/>
+      <circle cx="1192" cy="136" r="3" fill="#C9FF2E"/>
+      <circle cx="1218" cy="136" r="3" fill="#C9FF2E"/>
+      <circle cx="1170" cy="144" r="3" fill="#C9FF2E"/>
+      <circle cx="1240" cy="144" r="3" fill="#C9FF2E"/>
+    </g>
+
+    <!-- Lock -->
+    <g>
+      <rect x="1182" y="171" width="46" height="36" rx="7" fill="none" stroke="#C9FF2E" stroke-width="4">
+        <animate attributeName="stroke-opacity" values=".75;1;.75" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <path d="M1191 171V160C1191 151 1197 144 1205 144C1213 144 1219 151 1219 160V171"
+            fill="none" stroke="#C9FF2E" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="1205" cy="188" r="4.2" fill="#C9FF2E">
+        <animate attributeName="opacity" values=".6;1;.6" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M1205 192V198" stroke="#C9FF2E" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Bottom animated waves -->
+  <g opacity=".95">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0; -120 0; 0 0" dur="10s" repeatCount="indefinite"/>
+      <path d="M-100 330 C60 312 170 340 310 330 S560 318 700 330 S960 344 1110 328 S1360 316 1510 330 V370 H-100 Z"
+            fill="url(#softWave)"/>
+      <path d="M-100 327 C60 309 170 336 310 327 S560 315 700 327 S960 341 1110 325 S1360 314 1510 327"
+            fill="none" stroke="url(#limeLine)" stroke-width="1.8"/>
+    </g>
+
+    <g opacity=".75">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 90 0; 0 0" dur="7.5s" repeatCount="indefinite"/>
+      <path d="M-120 340 C20 326 140 350 280 342 S530 334 675 342 S935 352 1080 340 S1340 330 1520 345 V370 H-120 Z"
+            fill="url(#softWave2)"/>
+      <path d="M-120 338 C20 324 140 346 280 338 S530 330 675 338 S935 348 1080 336 S1340 326 1520 341"
+            fill="none" stroke="#65FFDA" stroke-opacity=".22" stroke-width="1.2"/>
+    </g>
+  </g>
+
+  <!-- KS badge -->
+  <g>
+    <rect x="65" y="112" width="95" height="95" rx="19" fill="#C9FF2E" opacity=".34" filter="url(#glowStrong)">
+      <animate attributeName="opacity" values=".18;.55;.18" dur="3.3s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="65" y="112" width="95" height="95" rx="19" fill="#C9FF2E"/>
+    <rect x="69" y="116" width="87" height="87" rx="16" fill="none" stroke="#F1FFB5" stroke-width="2"/>
+
+    <!-- KS shine -->
+    <rect x="40" y="112" width="20" height="95" fill="#FFFFFF" opacity="0.0" transform="skewX(-20)">
+      <animate attributeName="x" values="40;185" dur="4.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.16;0" dur="4.8s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="112" y="175" text-anchor="middle" fill="#07100C" font-size="46" font-weight="800" font-family="Arial, Helvetica, sans-serif">KS</text>
+  </g>
+
+  <!-- Divider pulse -->
+  <path d="M187 112V207" stroke="#C9FF2E" stroke-width="2">
+    <animate attributeName="stroke-opacity" values=".5;1;.5" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Static identity text -->
+  <text x="218" y="154" fill="#F5FAF7" font-size="52" font-weight="700" font-family="Arial, Helvetica, sans-serif">Kavisara Samarakoon</text>
+
+  <text x="220" y="194" fill="#D8E5DE" font-size="27" font-family="Arial, Helvetica, sans-serif">Computer Networks Undergraduate</text>
+
+  <text x="220" y="238" fill="#B6C8BC" font-size="21" font-family="Arial, Helvetica, sans-serif">Cybersecurity  •  Network Engineering  •  Secure Software Development</text>
+
+  <path d="M220 263H905" fill="none" stroke="url(#limeLine)" stroke-width="2"/>
+
+  <text x="220" y="295" fill="#AFC0B6" font-size="18" font-family="Arial, Helvetica, sans-serif">NSBM Green University  |  BIT External — University of Moratuwa</text>
 </svg>
