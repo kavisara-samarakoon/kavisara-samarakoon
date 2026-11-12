@@ -89,6 +89,10 @@ My work connects **networking, cybersecurity, Linux systems, ARM64 labs, local-f
 
 **SentinelLite AI** is a beta-stage defensive Linux CLI for local endpoint observation, rule-based analysis, JSON alert reporting, report review, and static security dashboard generation.
 
+<p align="center">
+  <img src="./assets/projects/sentinellite-ai-flow.svg" alt="SentinelLite AI workflow: authentication logs, deterministic rules, and JSON alert reports" width="100%" />
+</p>
+
 **Tools:** Python · Linux · JSON Reports · GitHub Actions
 
 <p>
@@ -156,6 +160,10 @@ It is not:
 ## 🧪 ARM-SecNet
 
 **ARM-SecNet** is a public ARM64-first defensive cybersecurity lab framework for Apple Silicon users, combining UTM-based Linux labs, defensive exercises, screenshot-backed evidence, and validation workflows.
+
+<p align="center">
+  <img src="./assets/projects/arm-secnet-flow.svg" alt="ARM-SecNet workflow: ARM64 virtual lab, defensive exercises, and evidence" width="100%" />
+</p>
 
 **Tools:** Apple Silicon · UTM · Ubuntu ARM64 · Bash · GitHub Actions
 
@@ -235,6 +243,10 @@ It is not:
 ## 👻 GHOST
 
 **GHOST** — **GitHub, Handoff, Operations, Search, and Tracking** — is a local-first workflow assistant built with **Tauri, React, Rust, and Python** for managing project context, sessions, handoffs, and artifacts through reviewed, explicitly controlled workflows.
+
+<p align="center">
+  <img src="./assets/projects/ghost-flow.svg" alt="GHOST workflow: project context, explicit review, and handoff artifacts" width="100%" />
+</p>
 
 **Tools:** Tauri 2 · Rust · React · TypeScript · Python
 
@@ -355,7 +367,10 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 
 </details>
 
----
+<!-- Minimal circuit transition between projects and technical stack -->
+<p align="center">
+  <img src="./assets/banner/github-cyber-divider.svg" alt="Neon circuit section divider" width="100%" />
+</p>
 
 # 🛠️ Technical Stack
 
@@ -421,6 +436,10 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 ---
 
 # 📚 More About My Work
+
+<p align="center">
+  <img src="./assets/banner/github-engineering-workflow.svg" alt="Engineering workflow: design, build, test, document, review" width="100%" />
+</p>
 
 <details>
 <summary><b>📌 Project Highlights</b></summary>
