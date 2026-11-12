@@ -1,0 +1,130 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 370" role="img" aria-labelledby="title desc">
+  <title id="title">Kavisara Samarakoon — Cybersecurity and Network Engineering</title>
+  <desc id="desc">Dark cybersecurity banner with lime KS mark, connected nodes, and a soft transparent lower edge.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07100c"/>
+      <stop offset=".60" stop-color="#08120f"/>
+      <stop offset="1" stop-color="#101b16"/>
+    </linearGradient>
+
+    <linearGradient id="bottomFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="white"/>
+      <stop offset=".73" stop-color="white"/>
+      <stop offset="1" stop-color="black"/>
+    </linearGradient>
+
+    <linearGradient id="limeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9FF2E" stop-opacity="0"/>
+      <stop offset=".28" stop-color="#C9FF2E" stop-opacity=".55"/>
+      <stop offset=".75" stop-color="#C9FF2E" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#C9FF2E" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="waveFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9FF2E" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#C9FF2E" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#B1D8C1" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+
+    <mask id="edge">
+      <rect width="1400" height="370" fill="url(#bottomFade)"/>
+    </mask>
+
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <g mask="url(#edge)">
+    <rect width="1400" height="370" fill="url(#background)"/>
+    <rect width="1400" height="370" fill="url(#grid)"/>
+
+    <g fill="none" stroke="#8EBB6D" stroke-opacity=".13" stroke-width="1.3">
+      <path d="M0 78H120l25 23h140"/>
+      <path d="M0 105H91l38 40h88"/>
+      <path d="M0 254h135l29-30h92"/>
+      <path d="M1075 35h155l39 32h131"/>
+      <path d="M1150 308h130l34-28h86"/>
+    </g>
+
+    <g fill="#B7F52E" opacity=".28">
+      <circle cx="120" cy="78" r="3"/>
+      <circle cx="285" cy="101" r="3"/>
+      <circle cx="217" cy="145" r="2.5"/>
+      <circle cx="256" cy="224" r="2.5"/>
+    </g>
+
+    <g fill="none" stroke="#B4FC33" stroke-opacity=".23" stroke-width="1.2">
+      <path d="M1050 23l118 56 109-46 123 82"/>
+      <path d="M1010 142l158-63 70 85 139-12"/>
+      <path d="M1060 241l178-77 140 86"/>
+      <path d="M1123 301l115-137 162 17"/>
+      <path d="M1010 142l50 99 63 60"/>
+    </g>
+
+    <g fill="#C9FF2E">
+      <circle cx="1168" cy="79" r="4"/>
+      <circle cx="1277" cy="33" r="3"/>
+      <circle cx="1238" cy="164" r="4"/>
+      <circle cx="1377" cy="152" r="3"/>
+      <circle cx="1060" cy="241" r="3"/>
+      <circle cx="1378" cy="250" r="3"/>
+    </g>
+
+    <g fill="#C9FF2E" opacity=".24" filter="url(#glow)">
+      <circle cx="1168" cy="79" r="9"/>
+      <circle cx="1238" cy="164" r="10"/>
+    </g>
+
+    <path d="M1205 93l73 42v80l-73 42-73-42v-80z"
+          fill="#08140e" stroke="#C9FF2E" stroke-width="2.4"/>
+
+    <path d="M1205 107l61 35v66l-61 35-61-35v-66z"
+          fill="none" stroke="#C9FF2E" stroke-opacity=".26" stroke-width="1.2"/>
+
+    <g stroke="#C9FF2E" stroke-width="4" stroke-linecap="round"
+       stroke-linejoin="round" fill="none">
+      <rect x="1181" y="166" width="48" height="39" rx="7"/>
+      <path d="M1190 166v-11a15 15 0 0 1 30 0v11"/>
+    </g>
+
+    <circle cx="1205" cy="186" r="4" fill="#C9FF2E"/>
+    <path d="M1205 189v7" stroke="#C9FF2E" stroke-width="3"/>
+  </g>
+
+  <rect x="65" y="112" width="95" height="95" rx="19" fill="#C9FF2E"/>
+  <rect x="69" y="116" width="87" height="87" rx="16"
+        fill="none" stroke="#E9FFA1" stroke-width="2"/>
+
+  <text x="112" y="175" text-anchor="middle" fill="#07100c"
+        font-size="46" font-weight="800"
+        font-family="Arial, Helvetica, sans-serif">KS</text>
+
+  <path d="M187 112V207" stroke="#C9FF2E" stroke-opacity=".9" stroke-width="2"/>
+
+  <text x="218" y="154" fill="#F5FAF7" font-size="52" font-weight="700"
+        font-family="Arial, Helvetica, sans-serif">Kavisara Samarakoon</text>
+
+  <text x="220" y="194" fill="#D9E4DF" font-size="27"
+        font-family="Arial, Helvetica, sans-serif">Computer Networks Undergraduate</text>
+
+  <text x="220" y="238" fill="#B7C9BD" font-size="21"
+        font-family="Arial, Helvetica, sans-serif">Cybersecurity  •  Network Engineering  •  Secure Software</text>
+
+  <path d="M220 263H895" fill="none" stroke="url(#limeLine)" stroke-width="2"/>
+
+  <text x="220" y="295" fill="#AFC0B6" font-size="18"
+        font-family="Arial, Helvetica, sans-serif">NSBM Green University  |  BIT External — University of Moratuwa</text>
+
+  <path d="M0 323 C230 305 400 345 640 329 S1040 306 1400 329"
+        fill="none" stroke="url(#limeLine)" stroke-width="1.8"/>
+
+  <path d="M0 327 C230 310 400 348 640 334 S1040 315 1400 337 V370 H0Z"
+        fill="url(#waveFill)"/>
+</svg>
