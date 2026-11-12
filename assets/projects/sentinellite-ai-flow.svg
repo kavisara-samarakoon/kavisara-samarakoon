@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 112" role="img" aria-labelledby="title desc">
+  <title id="title">SentinelLite AI observation workflow</title>
+  <desc id="desc">Local log observation, rule evaluation and JSON reporting. Decorative illustration with static fallback.</desc>
+  <defs>
+    <linearGradient id="rail" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#C9FF2E" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#C9FF2E" stop-opacity=".27"/>
+      <stop offset="82%" stop-color="#C9FF2E" stop-opacity=".27"/>
+      <stop offset="100%" stop-color="#C9FF2E" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes packet { from { stroke-dashoffset: 1080; } to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: no-preference) {
+        .packet { animation: packet 15s linear infinite; }
+      }
+    </style>
+  </defs>
+  <!-- No opaque background: blends with the GitHub README in either theme. -->
+  <text x="49" y="22" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2.1" fill="#C9FF2E" opacity=".74">LINUX ENDPOINT OBSERVATION</text>
+  <path d="M32 85 H1068" fill="none" stroke="url(#rail)" stroke-width="1.3"/>
+  <path class="packet" d="M32 85 H1068" fill="none" stroke="#C9FF2E" stroke-opacity=".60" stroke-width="2" stroke-dasharray="12 1060" stroke-linecap="round"/>
+  <g>
+    <path d="M52 38h28v32H52zM58 46h16M58 53h12M58 60h16" stroke="#C9FF2E" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="105" y="58" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" fill="#D7EDE0">AUTH LOGS</text>
+    <text x="105" y="78" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#92AFA1">Local collection</text>
+    <text x="467" y="58" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" fill="#D7EDE0">RULE REVIEW</text>
+    <text x="467" y="78" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#92AFA1">Deterministic checks</text>
+    <text x="821" y="58" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" fill="#D7EDE0">JSON REPORTS</text>
+    <text x="821" y="78" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#92AFA1">Reviewable output</text>
+    <circle cx="65" cy="85" r="3.4" fill="#C9FF2E" opacity=".6"/>
+    <circle cx="427" cy="85" r="4.2" fill="#65FFDA" opacity=".7"/>
+    <circle cx="781" cy="85" r="3.4" fill="#C9FF2E" opacity=".6"/>
+    <path d="M340 48l8 7-8 7 M703 48l8 7-8 7" stroke="#6F977B" stroke-width="1.5" fill="none" opacity=".65" stroke-linejoin="round"/>
+  </g>
+</svg>
