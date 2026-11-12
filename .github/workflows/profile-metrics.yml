@@ -1,0 +1,48 @@
+name: Refresh profile metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3 * * *'
+  push:
+    paths:
+      - 'scripts/update_profile_metrics.py'
+      - '.github/workflows/profile-metrics.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate XML/SVG cards from public GitHub data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_profile_metrics.py
+
+      - name: Commit changed graphics
+        run: |
+          git add assets/banner/github-live-metrics-dark.svg assets/banner/github-live-metrics-light.svg
+          if git diff --cached --quiet; then
+            echo "Metrics images unchanged."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "chore(profile): refresh public GitHub metrics"
+          git push origin HEAD:main
