@@ -1,31 +1,46 @@
 
-<!-- GitHub Profile README -->
+<!-- GitHub Profile README — Kavisara Samarakoon -->
 
 <div align="center">
-  <img src="./assets/banner/github-profile-banner.png" alt="Kavisara Samarakoon — Computer Networks, Cybersecurity and Network Engineering" width="100%" />
+
+  <img
+    src="./assets/banner/github-cyber-header.svg"
+    alt="Kavisara Samarakoon | Cybersecurity and Network Engineering"
+    width="100%"
+  />
+
+  <p>
+    <img
+      src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=1200&color=C9FF2E&center=true&vCenter=true&width=780&lines=Building+defensive+Linux+security+tools;Exploring+network+security+and+ARM64+labs;Developing+secure+local-first+software"
+      alt="Current technical focus"
+    />
+  </p>
+
+  <p>
+    <a href="#-about-me">About</a>
+    &nbsp;·&nbsp;
+    <a href="#-featured-work">Projects</a>
+    &nbsp;·&nbsp;
+    <a href="#-technical-stack">Technical Stack</a>
+    &nbsp;·&nbsp;
+    <a href="#-more-about-my-work">More</a>
+    &nbsp;·&nbsp;
+    <a href="#-connect-with-me">Contact</a>
+  </p>
+
+  <p>
+    <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
+      <img src="https://img.shields.io/badge/Portfolio-C9FF2E?style=flat-square&logo=vercel&logoColor=black" alt="Portfolio" />
+    </a>
+    <a href="https://www.linkedin.com/in/kavisara-samarakoon">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:kavisaraksamarakoon@gmail.com">
+      <img src="https://img.shields.io/badge/Email-252C32?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
+
 </div>
-
-<h1 align="center">Hi, I'm Kavisara Samarakoon 👋</h1>
-
-<p align="center">
-  <b>Computer Networks Undergraduate</b> · <b>Cybersecurity & Network Engineering</b> · <b>Secure Software Development</b>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1100&color=C9FF2E&center=true&vCenter=true&width=800&lines=Building+defensive+Linux+security+tooling;Building+ARM64-first+cybersecurity+labs;Developing+local-first+workflow+assistants;Documenting+secure+full-stack+technical+projects;Learning+cybersecurity%2C+systems%2C+cloud%2C+and+DevOps" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-C9FF2E?style=for-the-badge&logo=vercel&logoColor=black" alt="Portfolio" />
-  </a>
-  <a href="https://www.linkedin.com/in/kavisara-samarakoon">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:kavisaraksamarakoon@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ffffff?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
-  </a>
-</p>
 
 ---
 
@@ -73,7 +88,7 @@ My work connects **networking, cybersecurity, Linux systems, ARM64 labs, local-f
 
 <p align="center">
   <a href="https://github.com/kavisara-samarakoon/sentinellite-ai">
-    <img src="./assets/projects/sentinellite-ai-card.png" alt="SentinelLite AI — defensive Linux endpoint observation CLI project overview" width="70%" />
+    <img src="./assets/projects/sentinellite-ai-card.png" alt="SentinelLite AI defensive Linux endpoint observation CLI project overview" width="70%" />
   </a>
 </p>
 
@@ -89,13 +104,15 @@ It collects selected host facts when a command is run, applies transparent rules
 **Current release:** [`v1.2.0-beta`](https://github.com/kavisara-samarakoon/sentinellite-ai/releases/tag/v1.2.0-beta)
 
 **Validation:**
+
 - 652 tests passed
 - Ruff passed
 - `pip check` passed
 - Dashboard export works
 - Python 3.11 and Python 3.14 CI validation completed
 
-**Focus:**  
+**Focus:**
+
 Python · Linux Security · Endpoint Observation · Auth Logs · File Integrity · Rule-Based Detection · Risk Scoring · JSON Reports · Static Dashboard · GitHub Actions
 
 ### Safety boundaries
@@ -139,7 +156,7 @@ It is not:
 
 <p align="center">
   <a href="https://github.com/kavisara-samarakoon/arm-secnet">
-    <img src="./assets/projects/arm-secnet-card.png" alt="ARM-SecNet — Apple Silicon defensive security lab project overview" width="70%" />
+    <img src="./assets/projects/arm-secnet-card.png" alt="ARM-SecNet Apple Silicon defensive security lab project overview" width="70%" />
   </a>
 </p>
 
@@ -152,21 +169,25 @@ It is not:
 
 ARM-SecNet is designed for students, lecturers, and security learners who want reproducible ARM64 Linux security labs using an Apple Silicon Mac, UTM virtualization, Ubuntu ARM64, defensive exercises, and validation checks.
 
-**Current release:**  
+**Current release:**
+
 [`v1.1.0-sentinellite-dashboard-lab`](https://github.com/kavisara-samarakoon/arm-secnet/releases/tag/v1.1.0-sentinellite-dashboard-lab)
 
 **Current labs:**
+
 - Linux Baseline Investigation
 - Authentication Log Analysis
 - SentinelLite AI Local CLI and Static Dashboard
 
 **Validation:**
+
 - 29 passed
 - 0 warnings
 - 0 failures
 - GitHub Actions validation CI added and passed
 
-**Focus:**  
+**Focus:**
+
 ARM64 · Apple Silicon · UTM · Ubuntu ARM64 · Defensive Linux Labs · Screenshot Evidence · Lab Validation · GitHub Actions
 
 ### Validation limitation
@@ -214,7 +235,7 @@ It is not:
 
 <p align="center">
   <a href="https://github.com/kavisara-samarakoon/ghost">
-    <img src="./assets/projects/ghost-card.png" alt="GHOST — local-first workflow assistant historical desktop preview" width="70%" />
+    <img src="./assets/projects/ghost-card.png" alt="GHOST local-first workflow assistant historical desktop preview" width="70%" />
   </a>
 </p>
 
@@ -249,13 +270,16 @@ The published `v0.5.0-alpha` checkpoint provides a local-first Python CLI and ma
 - Controlled advisory AI review and finite local orchestration with fresh approval
 - Opt-in voice transcription and proposal-only intent interpretation
 
-**Current public pre-release:**  
+**Current public pre-release:**
+
 [`v0.5.0-alpha`](https://github.com/kavisara-samarakoon/ghost/releases/tag/v0.5.0-alpha)
 
-**Status:**  
+**Status:**
+
 Public alpha for controlled testing. The published Apple Silicon desktop build is not Developer ID signed/notarized, and live-provider end-to-end validation remains a separate requirement. The preview image above shows an older interface checkpoint.
 
-**Focus:**  
+**Focus:**
+
 Tauri · React · TypeScript · Rust · Python · Local-First Workflow · Project Context · Handoffs · Artifacts · GitHub Actions
 
 ### Safety boundaries
@@ -267,7 +291,9 @@ The desktop app does **not**:
 - automatically push, merge, tag, publish, deploy, or release projects
 - grant AI-generated suggestions workflow execution authority
 
-AI review, voice transcription, and intent services require explicit user approval before sending selected content to an external provider. The CLI's bounded execution paths require fresh confirmation. GHOST remains an **alpha project**, not an autonomous production agent.
+AI review, voice transcription, and intent services require explicit user approval before sending selected content to an external provider.
+
+The CLI's bounded execution paths require fresh confirmation. GHOST remains an **alpha project**, not an autonomous production agent.
 
 </details>
 
@@ -306,7 +332,8 @@ NEXORA is designed as a secure, network-aware game deals intelligence platform c
 
 **Status:** Private technical MVP
 
-**Focus:**  
+**Focus:**
+
 Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist · Alerts · CI/CD · Product Documentation
 
 </details>
