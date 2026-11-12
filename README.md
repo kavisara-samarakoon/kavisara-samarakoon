@@ -78,7 +78,10 @@ My work connects **networking, cybersecurity, Linux systems, ARM64 labs, local-f
 - Strengthening **Python, Rust, Tauri, React, TypeScript, Next.js, Spring Boot, GitHub Actions, and CI/CD**
 - Preparing for a career as a **Cybersecurity Analyst and Network Engineer**
 
----
+<!-- Minimal animated cybersecurity section divider -->
+<p align="center">
+  <img src="./assets/banner/github-cyber-divider.svg" alt="Cybersecurity circuit section divider" width="100%" />
+</p>
 
 # 🚀 Featured Work
 
