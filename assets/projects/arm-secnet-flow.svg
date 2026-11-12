@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 112" role="img" aria-labelledby="title desc">
+  <title id="title">ARM-SecNet laboratory workflow</title>
+  <desc id="desc">ARM64 virtual machine, defensive exercises and validation evidence. Decorative illustration with static fallback.</desc>
+  <defs>
+    <linearGradient id="rail" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#65FFDA" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#65FFDA" stop-opacity=".27"/>
+      <stop offset="82%" stop-color="#65FFDA" stop-opacity=".27"/>
+      <stop offset="100%" stop-color="#65FFDA" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes packet { from { stroke-dashoffset: 1080; } to { stroke-dashoffset: 0; } }
+      @media (prefers-reduced-motion: no-preference) {
+        .packet { animation: packet 15s linear infinite; }
+      }
+    </style>
+  </defs>
+  <!-- No opaque background: blends with the GitHub README in either theme. -->
+  <text x="49" y="22" font-family="Arial,Helvetica,sans-serif" font-size="14" letter-spacing="2.1" fill="#65FFDA" opacity=".74">ARM64 DEFENSIVE LAB FRAMEWORK</text>
+  <path d="M32 85 H1068" fill="none" stroke="url(#rail)" stroke-width="1.3"/>
+  <path class="packet" d="M32 85 H1068" fill="none" stroke="#65FFDA" stroke-opacity=".60" stroke-width="2" stroke-dasharray="12 1060" stroke-linecap="round"/>
+  <g>
+    <rect x="52" y="40" width="29" height="23" rx="3" stroke="#65FFDA" stroke-width="2" fill="none"/><path d="M62 68h9M66 63v5M58 51h16" stroke="#65FFDA" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="105" y="58" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" fill="#D7EDE0">ARM64 LAB</text>
+    <text x="105" y="78" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#92AFA1">Apple Silicon + UTM</text>
+    <text x="467" y="58" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" fill="#D7EDE0">DEFENSIVE TESTS</text>
+    <text x="467" y="78" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#92AFA1">Reproducible exercises</text>
+    <text x="821" y="58" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="23" fill="#D7EDE0">EVIDENCE</text>
+    <text x="821" y="78" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#92AFA1">Validation records</text>
+    <circle cx="65" cy="85" r="3.4" fill="#65FFDA" opacity=".6"/>
+    <circle cx="427" cy="85" r="4.2" fill="#65FFDA" opacity=".7"/>
+    <circle cx="781" cy="85" r="3.4" fill="#65FFDA" opacity=".6"/>
+    <path d="M340 48l8 7-8 7 M703 48l8 7-8 7" stroke="#6F977B" stroke-width="1.5" fill="none" opacity=".65" stroke-linejoin="round"/>
+  </g>
+</svg>
