@@ -1,17 +1,18 @@
+
 <!-- GitHub Profile README -->
 
-<p align="center">
-  <img src="./assets/banner/github-profile-banner.png" alt="Kavisara Samarakoon GitHub Profile Banner" width="100%" />
-</p>
+<div align="center">
+  <img src="./assets/banner/github-profile-banner.png" alt="Kavisara Samarakoon — Computer Networks, Cybersecurity and Network Engineering" width="100%" />
+</div>
 
 <h1 align="center">Hi, I'm Kavisara Samarakoon 👋</h1>
 
 <p align="center">
-  <b>Computer Networks Student</b> · <b>Cybersecurity & Network Engineering Focus</b> · <b>Secure Full-Stack Development</b>
+  <b>Computer Networks Undergraduate</b> · <b>Cybersecurity & Network Engineering</b> · <b>Secure Software Development</b>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=21&pause=1000&color=C9FF2E&center=true&vCenter=true&width=900&lines=Building+defensive+Linux+security+tooling;Building+ARM64-first+cybersecurity+labs;Developing+local-first+workflow+assistants;Documenting+secure+full-stack+technical+projects;Learning+cybersecurity%2C+systems%2C+cloud%2C+and+DevOps" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1100&color=C9FF2E&center=true&vCenter=true&width=800&lines=Building+defensive+Linux+security+tooling;Building+ARM64-first+cybersecurity+labs;Developing+local-first+workflow+assistants;Documenting+secure+full-stack+technical+projects;Learning+cybersecurity%2C+systems%2C+cloud%2C+and+DevOps" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -54,11 +55,9 @@ My work connects **networking, cybersecurity, Linux systems, ARM64 labs, local-f
 
 ## 🛡️ SentinelLite AI
 
-<p align="center">
-  <img src="./assets/projects/sentinellite-ai-card.png" alt="SentinelLite AI local defensive Linux endpoint observation CLI preview" width="88%" />
-</p>
-
 **SentinelLite AI** is a beta-stage defensive Linux CLI for local endpoint observation, rule-based analysis, JSON alert reporting, report review, and static security dashboard generation.
+
+**Tools:** Python · Linux · JSON Reports · GitHub Actions
 
 <p>
   <a href="https://github.com/kavisara-samarakoon/sentinellite-ai">
@@ -67,8 +66,18 @@ My work connects **networking, cybersecurity, Linux systems, ARM64 labs, local-f
   <a href="https://github.com/kavisara-samarakoon/sentinellite-ai/releases/tag/v1.2.0-beta">
     <img src="https://img.shields.io/badge/v1.2.0--beta-GitHub%20Pre--Release-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="v1.2.0-beta GitHub Pre-Release" />
   </a>
-  <img src="https://img.shields.io/badge/Defensive%20Only%20Local%20CLI-0D1117?style=for-the-badge&logo=linux&logoColor=C9FF2E" alt="Defensive Only Local CLI" />
 </p>
+
+<details>
+<summary><b>🖼️ Project preview</b></summary>
+
+<p align="center">
+  <a href="https://github.com/kavisara-samarakoon/sentinellite-ai">
+    <img src="./assets/projects/sentinellite-ai-card.png" alt="SentinelLite AI — defensive Linux endpoint observation CLI project overview" width="70%" />
+  </a>
+</p>
+
+</details>
 
 <details>
 <summary><b>🔎 Release, validation & technical details</b></summary>
@@ -112,11 +121,9 @@ It is not:
 
 ## 🧪 ARM-SecNet
 
-<p align="center">
-  <img src="./assets/projects/arm-secnet-card.png" alt="ARM-SecNet ARM64 defensive cybersecurity lab framework preview" width="88%" />
-</p>
-
 **ARM-SecNet** is a public ARM64-first defensive cybersecurity lab framework for Apple Silicon users, combining UTM-based Linux labs, defensive exercises, screenshot-backed evidence, and validation workflows.
+
+**Tools:** Apple Silicon · UTM · Ubuntu ARM64 · Bash · GitHub Actions
 
 <p>
   <a href="https://github.com/kavisara-samarakoon/arm-secnet">
@@ -125,8 +132,18 @@ It is not:
   <a href="https://github.com/kavisara-samarakoon/arm-secnet/releases/tag/v1.1.0-sentinellite-dashboard-lab">
     <img src="https://img.shields.io/badge/V1.1.0%20SentinelLite%20Dashboard%20Lab-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="ARM-SecNet V1.1.0 SentinelLite Dashboard Lab" />
   </a>
-  <img src="https://img.shields.io/badge/ARM64%20Defensive%20Labs-0D1117?style=for-the-badge&logo=ubuntu&logoColor=C9FF2E" alt="ARM64 Defensive Labs" />
 </p>
+
+<details>
+<summary><b>🖼️ Project preview</b></summary>
+
+<p align="center">
+  <a href="https://github.com/kavisara-samarakoon/arm-secnet">
+    <img src="./assets/projects/arm-secnet-card.png" alt="ARM-SecNet — Apple Silicon defensive security lab project overview" width="70%" />
+  </a>
+</p>
+
+</details>
 
 <details>
 <summary><b>🔎 Labs, validation & technical details</b></summary>
@@ -179,28 +196,36 @@ It is not:
 
 ## 👻 GHOST
 
-<p align="center">
-  <img src="./assets/projects/ghost-card.png" alt="GHOST local-first workflow assistant desktop cockpit preview" width="88%" />
-</p>
+**GHOST** — **GitHub, Handoff, Operations, Search, and Tracking** — is a local-first workflow assistant built with **Tauri, React, Rust, and Python** for managing project context, sessions, handoffs, and artifacts through reviewed, explicitly controlled workflows.
 
-**GHOST** — **GitHub, Handoff, Operations, Search, and Tracking** — is a secure local-first workflow assistant built with **Tauri, React, Rust, and Python** for managing project context, sessions, handoffs, and artifacts.
+**Tools:** Tauri 2 · Rust · React · TypeScript · Python
 
 <p>
   <a href="https://github.com/kavisara-samarakoon/ghost">
     <img src="https://img.shields.io/badge/View%20Repository-C9FF2E?style=for-the-badge&logo=github&logoColor=black" alt="View Repository" />
   </a>
-  <a href="https://github.com/kavisara-samarakoon/ghost/releases/tag/v0.3.0-alpha">
-    <img src="https://img.shields.io/badge/v0.3.0--alpha%20Local%20MVP-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GHOST v0.3.0-alpha Local MVP" />
+  <a href="https://github.com/kavisara-samarakoon/ghost/releases/tag/v0.5.0-alpha">
+    <img src="https://img.shields.io/badge/v0.5.0--alpha-GitHub%20Pre--Release-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GHOST v0.5.0-alpha GitHub Pre-Release" />
   </a>
-  <img src="https://img.shields.io/badge/Local--First%20Workflow%20Assistant-0D1117?style=for-the-badge&logo=tauri&logoColor=C9FF2E" alt="Local-First Workflow Assistant" />
 </p>
+
+<details>
+<summary><b>🖼️ Project preview</b></summary>
+
+<p align="center">
+  <a href="https://github.com/kavisara-samarakoon/ghost">
+    <img src="./assets/projects/ghost-card.png" alt="GHOST — local-first workflow assistant historical desktop preview" width="70%" />
+  </a>
+</p>
+
+</details>
 
 <details>
 <summary><b>🔎 Current capabilities, status & safety boundaries</b></summary>
 
 <br>
 
-The current public release provides a local MVP desktop checkpoint with:
+The published `v0.5.0-alpha` checkpoint provides a local-first Python CLI and macOS desktop companion with:
 
 - macOS Command Space cockpit
 - Projects page
@@ -220,32 +245,29 @@ The current public release provides a local MVP desktop checkpoint with:
 - Update pack generation
 - Doctor / validation checks
 - GitHub Actions CI validation
+- Reviewed Action Requests and explicit CLI confirmation before allowlisted actions
+- Controlled advisory AI review and finite local orchestration with fresh approval
+- Opt-in voice transcription and proposal-only intent interpretation
 
-**Current public release:**  
-[`v0.3.0-alpha`](https://github.com/kavisara-samarakoon/ghost/releases/tag/v0.3.0-alpha)
+**Current public pre-release:**  
+[`v0.5.0-alpha`](https://github.com/kavisara-samarakoon/ghost/releases/tag/v0.5.0-alpha)
 
 **Status:**  
-Public alpha / local MVP. Latest `main` is ahead of `v0.3.0-alpha`; `v0.4.0-alpha` is planned next.
+Public alpha for controlled testing. The published Apple Silicon desktop build is not Developer ID signed/notarized, and live-provider end-to-end validation remains a separate requirement. The preview image above shows an older interface checkpoint.
 
 **Focus:**  
 Tauri · React · TypeScript · Rust · Python · Local-First Workflow · Project Context · Handoffs · Artifacts · GitHub Actions
 
 ### Safety boundaries
 
-The current desktop app does not:
+The desktop app does **not**:
 
-- run shell commands
-- invoke the Python CLI
-- call AI APIs
-- call network services
-- automatically publish
-- deploy
-- merge
-- push
-- tag
-- release
+- invoke the Python CLI or run arbitrary shell commands
+- execute pending Action Requests or intent plan drafts directly
+- automatically push, merge, tag, publish, deploy, or release projects
+- grant AI-generated suggestions workflow execution authority
 
-The CLI remains the controlled write path, and future roadmap features are **planned directions**, not current implemented capabilities.
+AI review, voice transcription, and intent services require explicit user approval before sending selected content to an external provider. The CLI's bounded execution paths require fresh confirmation. GHOST remains an **alpha project**, not an autonomous production agent.
 
 </details>
 
@@ -365,7 +387,7 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 |---|---|
 | **Defensive Security Tooling** | SentinelLite AI beta-stage local CLI, Linux endpoint observation, rule-based detection, deterministic risk scoring, JSON alert reports, and static dashboard export |
 | **ARM64 Defensive Labs** | ARM-SecNet using Apple Silicon, UTM, Ubuntu ARM64, screenshot-backed evidence, and validation workflows |
-| **Local-First Workflow Systems** | GHOST local MVP for project context, sessions, memory search, handoff drafts, artifacts, and safe desktop/CLI workflows |
+| **Local-First Workflow Systems** | GHOST alpha desktop/CLI for project context, sessions, memory search, handoffs, artifacts, reviewed requests, and approval-gated workflows |
 | **Network Security Labs** | pfSense firewalling, Snort IDS/IPS, NAT, VPN concepts, controlled testing, and network security documentation |
 | **VoIP Systems** | FreeBSD + Asterisk PBX, SIP/PJSIP, SIP-TLS, ZRTP, voicemail, IVR, and controlled VoIP lab testing |
 | **Full-Stack Projects** | NEXORA private technical MVP, personal portfolio, Next.js frontend work, Spring Boot backend foundations, REST APIs, and authentication concepts |
@@ -446,5 +468,5 @@ My goal is to build a strong technical foundation through:
 ---
 
 <p align="center">
-  <b>Networking · Cybersecurity · Defensive Security Tooling · ARM64 Labs · Local-First Workflow Systems · Secure Full-Stack Development · Technical Documentation</b>
+  <b>Cybersecurity · Network Engineering · Defensive Linux Tooling · ARM64 Labs · Secure Software</b>
 </p>
