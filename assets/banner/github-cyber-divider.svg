@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 48" role="img" aria-labelledby="dividerTitle dividerDesc">
+  <title id="dividerTitle">Cybersecurity circuit section divider</title>
+  <desc id="dividerDesc">A minimal transparent lime and cyan circuit divider with slowly moving signal pulses.</desc>
+  <defs>
+    <linearGradient id="circuitFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9FF2E" stop-opacity="0"/>
+      <stop offset="16%" stop-color="#C9FF2E" stop-opacity=".24"/>
+      <stop offset="50%" stop-color="#C9FF2E" stop-opacity=".49"/>
+      <stop offset="84%" stop-color="#C9FF2E" stop-opacity=".24"/>
+      <stop offset="100%" stop-color="#C9FF2E" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- A static, transparent circuit trace remains visible if animation is disabled. -->
+  <path d="M24 24H377L399 14H579L596 24H804L821 34H1001L1023 24H1376"
+        fill="none" stroke="url(#circuitFade)" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Two slow data packets flow from opposite sides. -->
+  <path d="M24 24H377L399 14H579L596 24H804L821 34H1001L1023 24H1376"
+        fill="none" stroke="#C9FF2E" stroke-width="2.2" stroke-opacity=".62"
+        stroke-linecap="round" stroke-dasharray="13 1440">
+    <animate attributeName="stroke-dashoffset" from="1453" to="0"
+             dur="14s" repeatCount="indefinite"/>
+  </path>
+  <path d="M1376 24H1023L1001 34H821L804 24H596L579 14H399L377 24H24"
+        fill="none" stroke="#65FFDA" stroke-width="1.8" stroke-opacity=".35"
+        stroke-linecap="round" stroke-dasharray="9 1440">
+    <animate attributeName="stroke-dashoffset" from="1449" to="0"
+             dur="19s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Low-key node lights connect this divider to the existing banner. -->
+  <g fill="#C9FF2E">
+    <circle cx="399" cy="14" r="2.7" opacity=".55"/>
+    <circle cx="596" cy="24" r="3" opacity=".7">
+      <animate attributeName="opacity" values=".35;.72;.35" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="804" cy="24" r="3" opacity=".7">
+      <animate attributeName="opacity" values=".72;.35;.72" dur="6.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1001" cy="34" r="2.7" opacity=".55"/>
+  </g>
+  <circle cx="700" cy="24" r="3.3" fill="#C9FF2E" opacity=".75"/>
+  <circle cx="700" cy="24" r="9" fill="none" stroke="#C9FF2E" stroke-opacity=".13"/>
+</svg>
