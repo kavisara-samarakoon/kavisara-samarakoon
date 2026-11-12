@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 182" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub at a glance: verified public repository snapshot</title>
+  <desc id="desc">As of November 13, 2026: nine public repositories owned by Kavisara Samarakoon, with SentinelLite AI, ARM-SecNet and GHOST featured. This is a dated snapshot, not live analytics.</desc>
+  <!-- Deliberately transparent: no rectangular background and no fabricated activity chart. -->
+  <path d="M32 39H276L288 29H375 M725 29H824L836 39H1068" stroke="#B5CEBB" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+  <circle cx="288" cy="29" r="2.4" fill="#477800" opacity=".85"/>
+  <circle cx="836" cy="39" r="2.4" fill="#087D73" opacity=".8"/>
+
+  <text x="35" y="25" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.8" font-size="14" font-weight="700" fill="#477800">GITHUB / PUBLIC SNAPSHOT</text>
+  <text x="1065" y="25" text-anchor="end" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.2" font-size="13" fill="#4E6B5D">13 NOV 2026</text>
+
+  <text x="49" y="118" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" fill="#1B2821">09</text>
+  <text x="160" y="85" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#1B2821">PUBLIC</text>
+  <text x="160" y="111" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700" fill="#1B2821">REPOSITORIES</text>
+  <text x="161" y="135" font-family="Arial,Helvetica,sans-serif" font-size="13.5" fill="#36493F">Owned and visible</text>
+  <circle cx="66" cy="153" r="4.2" fill="#477800" opacity=".92"/>
+    <circle cx="87" cy="153" r="4.2" fill="#477800" opacity=".92"/>
+    <circle cx="108" cy="153" r="4.2" fill="#477800" opacity=".92"/>
+    <circle cx="129" cy="153" r="4.2" fill="#477800" opacity=".37"/>
+    <circle cx="150" cy="153" r="4.2" fill="#477800" opacity=".37"/>
+    <circle cx="171" cy="153" r="4.2" fill="#477800" opacity=".37"/>
+    <circle cx="192" cy="153" r="4.2" fill="#477800" opacity=".37"/>
+    <circle cx="213" cy="153" r="4.2" fill="#477800" opacity=".37"/>
+    <circle cx="234" cy="153" r="4.2" fill="#477800" opacity=".37"/>
+
+  <path d="M378 57V150" stroke="#B5CEBB" stroke-width="1" stroke-opacity=".8"/>
+
+  <text x="416" y="80" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="1.2" font-weight="700" fill="#477800">03</text>
+  <text x="466" y="80" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="700" fill="#1B2821">FEATURED PUBLIC BUILDS</text>
+  <path d="M417 94H719" stroke="#B5CEBB" stroke-width="1"/>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#36493F">
+    <circle cx="425" cy="114" r="3" fill="#477800"/>
+    <text x="439" y="120">SentinelLite AI</text>
+    <circle cx="425" cy="139" r="3" fill="#087D73"/>
+    <text x="439" y="145">ARM-SecNet</text>
+    <circle cx="594" cy="139" r="3" fill="#477800"/>
+    <text x="608" y="145">GHOST</text>
+  </g>
+
+  <path d="M753 57V150" stroke="#B5CEBB" stroke-width="1" stroke-opacity=".8"/>
+
+  <text x="789" y="81" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="1.2" fill="#477800">ENGINEERING FOCUS</text>
+  <text x="789" y="113" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="700" fill="#1B2821">Security · Systems</text>
+  <text x="789" y="139" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#36493F">Linux  /  ARM64  /  Local-first</text>
+  
+  <path d="M32 166H1068" stroke="#B5CEBB" stroke-width="1" opacity=".58"/>
+</svg>
