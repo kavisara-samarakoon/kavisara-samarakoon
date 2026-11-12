@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 194" role="img" aria-labelledby="title desc">
+<title id="title">GitHub public development metrics</title>
+<desc id="desc">Daily-updated public repository data: commits authored on default branches in the last 90 days, total stars and most used languages by code bytes.</desc>
+<defs><clipPath id="barClip"><rect x="580" y="72" width="462" height="12" rx="6"/></clipPath></defs>
+<rect x="12" y="13" width="524" height="169" rx="18" fill="#F5F9F6" stroke="#C7DCCD" stroke-width="1.4"/>
+<rect x="552" y="13" width="536" height="169" rx="18" fill="#F5F9F6" stroke="#C7DCCD" stroke-width="1.4"/>
+<text x="38" y="46" fill="#457B0A" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">PUBLIC ACTIVITY</text>
+<text x="578" y="46" fill="#457B0A" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">LANGUAGES BY CODE BYTES</text>
+<text x="39" y="111" fill="#15251A" font-family="Arial,sans-serif" font-size="40" font-weight="700">325</text>
+<text x="39" y="141" fill="#476253" font-family="Arial,sans-serif" font-size="12.5" font-weight="600">COMMITS · 90 DAYS</text>
+<text x="220" y="111" fill="#15251A" font-family="Arial,sans-serif" font-size="40" font-weight="700">9</text>
+<text x="220" y="141" fill="#476253" font-family="Arial,sans-serif" font-size="12.5" font-weight="600">PUBLIC REPOS</text>
+<text x="394" y="111" fill="#15251A" font-family="Arial,sans-serif" font-size="40" font-weight="700">32</text>
+<text x="394" y="141" fill="#476253" font-family="Arial,sans-serif" font-size="12.5" font-weight="600">REPO STARS</text>
+<text x="39" y="165" fill="#476253" font-family="Arial,sans-serif" font-size="11.5">Updated 12 NOV 2026 UTC</text>
+<rect x="580" y="72" width="462" height="12" rx="6" fill="#D9E7DD"/>
+<rect clip-path="url(#barClip)" x="580.00" y="72" width="174.42" height="12" fill="#B4EF37"/>
+<rect clip-path="url(#barClip)" x="754.42" y="72" width="123.87" height="12" fill="#56CDB8"/>
+<rect clip-path="url(#barClip)" x="878.29" y="72" width="68.78" height="12" fill="#83A8E2"/>
+<circle cx="585" cy="113" r="4" fill="#B4EF37"/>
+<text x="598" y="118" fill="#15251A" font-family="Arial,sans-serif" font-size="17">Python 37.8%</text>
+<circle cx="820" cy="113" r="4" fill="#56CDB8"/>
+<text x="833" y="118" fill="#15251A" font-family="Arial,sans-serif" font-size="17">Rust 26.8%</text>
+<circle cx="585" cy="147" r="4" fill="#83A8E2"/>
+<text x="598" y="152" fill="#15251A" font-family="Arial,sans-serif" font-size="17">TypeScript 14.9%</text>
+<text x="580" y="165" fill="#476253" font-family="Arial,sans-serif" font-size="11.5">Public repositories only · remaining languages in grey</text>
+</svg>
