@@ -114,135 +114,147 @@ def build_svg(
     *,
     dark: bool,
 ) -> str:
-    """Render two compact rounded cards, with optional low-motion SVG accents."""
-    panel_start = "#08130F" if dark else "#FBFDFB"
-    panel_end = "#102019" if dark else "#F0F8F3"
-    border = "#345D47" if dark else "#BEDCC8"
-    fg = "#F1FAF4" if dark else "#172A20"
-    muted = "#AAC1B1" if dark else "#4A6857"
-    green = "#C9FF2E" if dark else "#457C0B"
-    cyan = "#60DFD0" if dark else "#178979"
-    barbg = "#293D32" if dark else "#DDEADF"
-    palette = ["#A9ED3E", "#54CEBF", "#84A8EB"] if dark else [
-        "#78AC22", "#219E91", "#597FC6"
-    ]
+    """Generate slim, animated rounded metrics with a reduced-motion fallback.
 
-    elements = [
+    Numeric achievements always come from the public GitHub API. The 1K+
+    contribution milestone is explicitly identified as a GOAL, not a count.
+    """
+    panel_a = "#071610" if dark else "#F8FCF9"
+    panel_b = "#0C2018" if dark else "#EDF7EF"
+    fg = "#F2FBF5" if dark else "#14281C"
+    muted = "#A8BFB0" if dark else "#516B58"
+    edge = "#365E48" if dark else "#B6D4BE"
+    lime = "#C9FF2E" if dark else "#548A10"
+    cyan = "#5AE5D4" if dark else "#168779"
+    track = "#253E31" if dark else "#D9E8DD"
+    lang_colors = (
+        ["#B3F34D", "#5CD4C1", "#8FB2EE"] if dark
+        else ["#6BA52B", "#199989", "#5A82CD"]
+    )
+
+    lines = [
         '<svg xmlns="http://www.w3.org/2000/svg" '
-        'viewBox="0 0 1100 190" role="img" aria-labelledby="title desc">',
-        '<title id="title">Public GitHub activity and languages</title>',
-        '<desc id="desc">Calendar-year authored commits on public repository '
-        'default branches, public repository count, stars, and leading '
-        'languages by code bytes. Refreshed daily.</desc>',
+        'viewBox="0 0 1100 152" role="img" aria-labelledby="title desc">',
+        '<title id="title">Public GitHub activity and programming languages</title>',
+        '<desc id="desc">Verified public data: authored commits on public '
+        'repository default branches during the current calendar year, '
+        'public repository count, stars, and languages by code bytes. '
+        'The 1000+ contributions milestone is a goal, not an achieved count.</desc>',
         '<defs>',
         f'<linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">'
-        f'<stop offset="0%" stop-color="{panel_start}"/>'
-        f'<stop offset="100%" stop-color="{panel_end}"/>'
+        f'<stop offset="0%" stop-color="{panel_a}"/>'
+        f'<stop offset="100%" stop-color="{panel_b}"/>'
         '</linearGradient>',
-        f'<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">'
-        f'<stop offset="0%" stop-color="{green}" stop-opacity=".08"/>'
-        f'<stop offset="48%" stop-color="{green}" stop-opacity=".8"/>'
-        f'<stop offset="70%" stop-color="{cyan}" stop-opacity=".75"/>'
-        f'<stop offset="100%" stop-color="{cyan}" stop-opacity=".08"/>'
+        f'<linearGradient id="frame" x1="0%" y1="0%" x2="100%" y2="0%">'
+        f'<stop offset="0%" stop-color="{lime}" stop-opacity=".12"/>'
+        f'<stop offset="45%" stop-color="{lime}" stop-opacity=".75"/>'
+        f'<stop offset="68%" stop-color="{cyan}" stop-opacity=".65"/>'
+        f'<stop offset="100%" stop-color="{cyan}" stop-opacity=".12"/>'
         '</linearGradient>',
-        '<clipPath id="languageBar">'
-        '<rect x="582" y="73" width="468" height="12" rx="6"/>'
+        '<clipPath id="barClip">'
+        '<rect x="581" y="64" width="473" height="10" rx="5"/>'
         '</clipPath>',
-        '<clipPath id="cardOne"><rect x="12" y="12" width="524" '
-        'height="168" rx="19"/></clipPath>',
-        '<clipPath id="cardTwo"><rect x="551" y="12" width="537" '
-        'height="168" rx="19"/></clipPath>',
-        # Media-query avoids perpetual animation for users who prefer less motion.
         '<style>',
-        '@keyframes flow { from { stroke-dashoffset: 530; }'
-        ' to { stroke-dashoffset: 0; } }',
-        '@keyframes shimmer { from { transform: translateX(0px); }'
-        ' to { transform: translateX(590px); } }',
-        '@keyframes breathe { 0%,100% { opacity: .35; }'
-        ' 50% { opacity: .95; } }',
+        '@keyframes borderFlow {from {stroke-dashoffset: 1320;} '
+        'to {stroke-dashoffset: 0;}}',
+        '@keyframes scan {from {transform:translateX(-70px);}'
+        ' to {transform:translateX(560px);}}',
+        '@keyframes softPulse {0%,100% {opacity:.4;} 50% {opacity:.85;}}',
         '@media (prefers-reduced-motion: no-preference) {',
-        '.signal { animation: flow 11s linear infinite; }',
-        '.signal.delay { animation-duration: 14s; animation-delay: -5s; }',
-        '.shimmer { animation: shimmer 7s ease-in-out infinite; }',
-        '.node { animation: breathe 4.5s ease-in-out infinite; }',
+        '.framePulse {animation:borderFlow 16s linear infinite;}',
+        '.framePulse.reverse {animation-duration:19s;animation-direction:reverse;}',
+        '.scan {animation:scan 8s linear infinite;}',
+        '.signalDot {animation:softPulse 5s ease-in-out infinite;}',
         '}',
         '</style>',
         '</defs>',
-        '<rect x="12" y="12" width="524" height="168" rx="19" '
-        f'fill="url(#panel)" stroke="{border}" stroke-width="1.4"/>',
-        '<rect x="551" y="12" width="537" height="168" rx="19" '
-        f'fill="url(#panel)" stroke="{border}" stroke-width="1.4"/>',
-        # Short accent rails distinguish the two cards without a heavy heading.
-        '<path d="M37 35H511 M579 35H1059" '
-        'stroke="url(#accent)" stroke-width="1.8" fill="none"/>',
-        f'<path class="signal" d="M37 35H511" stroke="{green}" '
-        'stroke-opacity=".45" stroke-width="2.2" fill="none" '
-        'stroke-dasharray="18 512" stroke-linecap="round"/>',
-        f'<path class="signal delay" d="M579 35H1059" stroke="{cyan}" '
-        'stroke-opacity=".43" stroke-width="2.2" fill="none" '
-        'stroke-dasharray="18 512" stroke-linecap="round"/>',
-        f'<circle class="node" cx="505" cy="35" r="3" fill="{green}"/>',
-        f'<circle class="node" cx="1054" cy="35" r="3" fill="{cyan}"/>',
-        f'<text x="38" y="56" fill="{green}" font-family="Arial,sans-serif" '
-        'font-size="14" font-weight="700" letter-spacing="1.5">'
+        # Transparent outside two cards. No full-width background rectangle.
+        f'<rect x="12" y="10" width="524" height="132" rx="17" '
+        f'fill="url(#panel)" stroke="{edge}" stroke-width="1.4"/>',
+        f'<rect x="552" y="10" width="536" height="132" rx="17" '
+        f'fill="url(#panel)" stroke="{edge}" stroke-width="1.4"/>',
+        # Animated moving glints follow rounded borders. Static borders remain.
+        f'<rect class="framePulse" x="13" y="11" width="522" height="130" '
+        f'rx="16" fill="none" stroke="{lime}" stroke-opacity=".65" '
+        'stroke-width="2" stroke-dasharray="54 1320"/>',
+        f'<rect class="framePulse reverse" x="553" y="11" '
+        'width="534" height="130" rx="16" fill="none" '
+        f'stroke="{cyan}" stroke-opacity=".6" stroke-width="2" '
+        'stroke-dasharray="54 1320"/>',
+        f'<circle class="signalDot" cx="508" cy="28" r="2.5" '
+        f'fill="{lime}"/>',
+        f'<circle class="signalDot" cx="1059" cy="28" r="2.5" '
+        f'fill="{cyan}"/>',
+        f'<text x="37" y="39" fill="{lime}" font-family="Arial,sans-serif" '
+        'font-size="12.8" font-weight="700" letter-spacing="1.3">'
         'PUBLIC ACTIVITY</text>',
-        f'<text x="581" y="56" fill="{green}" font-family="Arial,sans-serif" '
-        'font-size="14" font-weight="700" letter-spacing="1.5">'
+        f'<text x="580" y="39" fill="{lime}" font-family="Arial,sans-serif" '
+        'font-size="12.8" font-weight="700" letter-spacing="1.3">'
         'LANGUAGES BY CODE BYTES</text>',
+        # Goal is clearly labeled, avoiding a fabricated commit number.
+        f'<rect x="355" y="25" width="142" height="20" rx="10" '
+        f'fill="none" stroke="{edge}" stroke-opacity=".9"/>',
+        f'<text x="366" y="39" fill="{muted}" font-family="Arial,sans-serif" '
+        'font-size="10.7">GOAL: 1K+ CONTRIBUTIONS</text>',
     ]
-    year_label = str(NOW.year)
+
     for x, value, label in (
-        (38, commits, f"COMMITS · {year_label}"),
-        (220, repo_count, "PUBLIC REPOS"),
-        (393, stars, "REPO STARS"),
+        (37, commits, f"COMMITS · {NOW.year}"),
+        (223, repo_count, "PUBLIC REPOS"),
+        (399, stars, "REPO STARS"),
     ):
-        elements.extend([
-            f'<text x="{x}" y="118" fill="{fg}" font-family="Arial,sans-serif" '
-            f'font-size="41" font-weight="700">{value:,}</text>',
-            f'<text x="{x}" y="144" fill="{muted}" font-family="Arial,sans-serif" '
+        lines.extend([
+            f'<text x="{x}" y="90" fill="{fg}" font-family="Arial,sans-serif" '
+            f'font-size="38" font-weight="700">{value:,}</text>',
+            f'<text x="{x}" y="111" fill="{muted}" font-family="Arial,sans-serif" '
             f'font-size="12.5" font-weight="700">{escape(label)}</text>',
         ])
-    stamp = NOW.strftime("%d %b %Y UTC").upper()
-    elements.append(
-        f'<text x="38" y="166" fill="{muted}" font-family="Arial,sans-serif" '
-        f'font-size="11.5">Updated {escape(stamp)}</text>'
+    updated = escape(NOW.strftime("%d %b %Y UTC").upper())
+    lines.append(
+        f'<text x="37" y="130" fill="{muted}" '
+        f'font-family="Arial,sans-serif" font-size="10.2">'
+        f'Updated {updated}</text>'
     )
-    elements.append(
-        f'<rect x="582" y="73" width="468" height="12" rx="6" fill="{barbg}"/>'
+
+    lines.append(
+        f'<rect x="581" y="64" width="473" height="10" rx="5" '
+        f'fill="{track}"/>'
     )
-    offset = 582.0
-    for i, (_, percent) in enumerate(langs[:3]):
-        width = max(0.0, 468 * percent / 100)
-        elements.append(
-            f'<rect clip-path="url(#languageBar)" x="{offset:.2f}" y="73" '
-            f'width="{width:.2f}" height="12" fill="{palette[i]}"/>'
+    offset = 581.0
+    for i, (_, pct) in enumerate(langs[:3]):
+        width = 473 * max(0.0, min(100.0, pct)) / 100
+        lines.append(
+            f'<rect clip-path="url(#barClip)" x="{offset:.2f}" y="64" '
+            f'width="{width:.2f}" height="10" fill="{lang_colors[i]}"/>'
         )
         offset += width
-    # Low-opacity bar glint: clipped to the bar, never covers the labels.
-    elements.append(
-        '<rect class="shimmer" clip-path="url(#languageBar)" x="520" y="73" '
-        'width="50" height="12" fill="#FFFFFF" opacity=".11"/>'
+    # A moving highlight travels only within the rounded language bar.
+    lines.append(
+        '<rect class="scan" clip-path="url(#barClip)" x="560" y="64" '
+        'width="42" height="10" fill="#FFFFFF" opacity=".10"/>'
     )
-    for i, (name, percent) in enumerate(langs[:3]):
-        x = 582 + (i % 2) * 237
-        y = 121 + (i // 2) * 34
+
+    for i, (name, pct) in enumerate(langs[:3]):
+        x = 581 + (i % 2) * 235
+        y = 102 + (i // 2) * 28
         label = name if len(name) <= 16 else name[:15] + "…"
-        elements.extend([
-            f'<circle cx="{x+5}" cy="{y-5}" r="4" fill="{palette[i]}"/>',
-            f'<text x="{x+19}" y="{y}" fill="{fg}" '
-            f'font-family="Arial,sans-serif" font-size="16.5">'
-            f'{escape(label)} {percent:.1f}%</text>',
+        lines.extend([
+            f'<circle cx="{x+5}" cy="{y-5}" r="4" '
+            f'fill="{lang_colors[i]}"/>',
+            f'<text x="{x+18}" y="{y}" fill="{fg}" '
+            f'font-family="Arial,sans-serif" font-size="16">'
+            f'{escape(label)} {pct:.1f}%</text>',
         ])
     if not langs:
-        elements.append(
-            f'<text x="582" y="121" fill="{muted}" '
-            'font-family="Arial,sans-serif" font-size="17">'
+        lines.append(
+            f'<text x="581" y="101" fill="{muted}" '
+            'font-family="Arial,sans-serif" font-size="16">'
             'No language data reported</text>'
         )
-    elements.extend([
-        '</svg>',
-    ])
-    return "\n".join(elements) + "\n"
+
+    lines.append('</svg>')
+    return "\n".join(lines) + "\n"
+
 
 def main() -> None:
     repo_count, stars, commits, langs = get_metrics()
