@@ -29,12 +29,12 @@
 <text x="37" y="111" fill="#A8BFB0" font-family="Arial,sans-serif" font-size="12.5" font-weight="700">COMMITS · 2026</text>
 <text x="223" y="90" fill="#F2FBF5" font-family="Arial,sans-serif" font-size="38" font-weight="700">9</text>
 <text x="223" y="111" fill="#A8BFB0" font-family="Arial,sans-serif" font-size="12.5" font-weight="700">PUBLIC REPOS</text>
-<text x="399" y="90" fill="#F2FBF5" font-family="Arial,sans-serif" font-size="38" font-weight="700">32</text>
+<text x="399" y="90" fill="#F2FBF5" font-family="Arial,sans-serif" font-size="38" font-weight="700">39</text>
 <text x="399" y="111" fill="#A8BFB0" font-family="Arial,sans-serif" font-size="12.5" font-weight="700">REPO STARS</text>
 <rect x="581" y="64" width="473" height="10" rx="5" fill="#253E31"/>
-<rect clip-path="url(#barClip)" x="581.00" y="64" width="178.57" height="10" fill="#B3F34D"/>
-<rect clip-path="url(#barClip)" x="759.57" y="64" width="126.82" height="10" fill="#5CD4C1"/>
-<rect clip-path="url(#barClip)" x="886.39" y="64" width="70.42" height="10" fill="#8FB2EE"/>
+<rect clip-path="url(#barClip)" x="581.00" y="64" width="178.81" height="10" fill="#B3F34D"/>
+<rect clip-path="url(#barClip)" x="759.81" y="64" width="126.72" height="10" fill="#5CD4C1"/>
+<rect clip-path="url(#barClip)" x="886.53" y="64" width="70.36" height="10" fill="#8FB2EE"/>
 <rect class="scan" clip-path="url(#barClip)" x="560" y="64" width="42" height="10" fill="#FFFFFF" opacity=".10"/>
 <circle cx="586" cy="97" r="4" fill="#B3F34D"/>
 <text x="599" y="102" fill="#F2FBF5" font-family="Arial,sans-serif" font-size="16">Python 37.8%</text>
