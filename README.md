@@ -517,6 +517,19 @@ My goal is to build a strong technical foundation through:
 
 </details>
 
+<!-- Animated GitHub contribution snake — maintained in the output branch -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kavisara-samarakoon/kavisara-samarakoon/output/contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kavisara-samarakoon/kavisara-samarakoon/output/contribution-snake-light.svg" />
+    <img
+      src="https://raw.githubusercontent.com/kavisara-samarakoon/kavisara-samarakoon/output/contribution-snake-dark.svg"
+      alt="Animated neon-green snake moving through the GitHub contribution grid"
+      width="100%"
+    />
+  </picture>
+</p>
+
 ---
 
 <h1 align="center">📫 Connect With Me</h1>
