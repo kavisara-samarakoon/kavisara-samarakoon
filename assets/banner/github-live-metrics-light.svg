@@ -1,27 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 194" role="img" aria-labelledby="title desc">
-<title id="title">GitHub public development metrics</title>
-<desc id="desc">Daily-updated public repository data: commits authored on default branches in the last 90 days, total stars and most used languages by code bytes.</desc>
-<defs><clipPath id="barClip"><rect x="580" y="72" width="462" height="12" rx="6"/></clipPath></defs>
-<rect x="12" y="13" width="524" height="169" rx="18" fill="#F5F9F6" stroke="#C7DCCD" stroke-width="1.4"/>
-<rect x="552" y="13" width="536" height="169" rx="18" fill="#F5F9F6" stroke="#C7DCCD" stroke-width="1.4"/>
-<text x="38" y="46" fill="#457B0A" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">PUBLIC ACTIVITY</text>
-<text x="578" y="46" fill="#457B0A" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">LANGUAGES BY CODE BYTES</text>
-<text x="39" y="111" fill="#15251A" font-family="Arial,sans-serif" font-size="40" font-weight="700">325</text>
-<text x="39" y="141" fill="#476253" font-family="Arial,sans-serif" font-size="12.5" font-weight="600">COMMITS · 90 DAYS</text>
-<text x="220" y="111" fill="#15251A" font-family="Arial,sans-serif" font-size="40" font-weight="700">9</text>
-<text x="220" y="141" fill="#476253" font-family="Arial,sans-serif" font-size="12.5" font-weight="600">PUBLIC REPOS</text>
-<text x="394" y="111" fill="#15251A" font-family="Arial,sans-serif" font-size="40" font-weight="700">32</text>
-<text x="394" y="141" fill="#476253" font-family="Arial,sans-serif" font-size="12.5" font-weight="600">REPO STARS</text>
-<text x="39" y="165" fill="#476253" font-family="Arial,sans-serif" font-size="11.5">Updated 12 NOV 2026 UTC</text>
-<rect x="580" y="72" width="462" height="12" rx="6" fill="#D9E7DD"/>
-<rect clip-path="url(#barClip)" x="580.00" y="72" width="174.42" height="12" fill="#B4EF37"/>
-<rect clip-path="url(#barClip)" x="754.42" y="72" width="123.87" height="12" fill="#56CDB8"/>
-<rect clip-path="url(#barClip)" x="878.29" y="72" width="68.78" height="12" fill="#83A8E2"/>
-<circle cx="585" cy="113" r="4" fill="#B4EF37"/>
-<text x="598" y="118" fill="#15251A" font-family="Arial,sans-serif" font-size="17">Python 37.8%</text>
-<circle cx="820" cy="113" r="4" fill="#56CDB8"/>
-<text x="833" y="118" fill="#15251A" font-family="Arial,sans-serif" font-size="17">Rust 26.8%</text>
-<circle cx="585" cy="147" r="4" fill="#83A8E2"/>
-<text x="598" y="152" fill="#15251A" font-family="Arial,sans-serif" font-size="17">TypeScript 14.9%</text>
-<text x="580" y="165" fill="#476253" font-family="Arial,sans-serif" font-size="11.5">Public repositories only · remaining languages in grey</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 190" role="img" aria-labelledby="title desc">
+<title id="title">Public GitHub activity and languages</title>
+<desc id="desc">Calendar-year authored commits on public repository default branches, public repository count, stars, and leading languages by code bytes. Refreshed daily.</desc>
+<defs>
+<linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#FBFDFB"/><stop offset="100%" stop-color="#F0F8F3"/></linearGradient>
+<linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#457C0B" stop-opacity=".08"/><stop offset="48%" stop-color="#457C0B" stop-opacity=".8"/><stop offset="70%" stop-color="#178979" stop-opacity=".75"/><stop offset="100%" stop-color="#178979" stop-opacity=".08"/></linearGradient>
+<clipPath id="languageBar"><rect x="582" y="73" width="468" height="12" rx="6"/></clipPath>
+<clipPath id="cardOne"><rect x="12" y="12" width="524" height="168" rx="19"/></clipPath>
+<clipPath id="cardTwo"><rect x="551" y="12" width="537" height="168" rx="19"/></clipPath>
+<style>
+@keyframes flow { from { stroke-dashoffset: 530; } to { stroke-dashoffset: 0; } }
+@keyframes shimmer { from { transform: translateX(0px); } to { transform: translateX(590px); } }
+@keyframes breathe { 0%,100% { opacity: .35; } 50% { opacity: .95; } }
+@media (prefers-reduced-motion: no-preference) {
+.signal { animation: flow 11s linear infinite; }
+.signal.delay { animation-duration: 14s; animation-delay: -5s; }
+.shimmer { animation: shimmer 7s ease-in-out infinite; }
+.node { animation: breathe 4.5s ease-in-out infinite; }
+}
+</style>
+</defs>
+<rect x="12" y="12" width="524" height="168" rx="19" fill="url(#panel)" stroke="#BEDCC8" stroke-width="1.4"/>
+<rect x="551" y="12" width="537" height="168" rx="19" fill="url(#panel)" stroke="#BEDCC8" stroke-width="1.4"/>
+<path d="M37 35H511 M579 35H1059" stroke="url(#accent)" stroke-width="1.8" fill="none"/>
+<path class="signal" d="M37 35H511" stroke="#457C0B" stroke-opacity=".45" stroke-width="2.2" fill="none" stroke-dasharray="18 512" stroke-linecap="round"/>
+<path class="signal delay" d="M579 35H1059" stroke="#178979" stroke-opacity=".43" stroke-width="2.2" fill="none" stroke-dasharray="18 512" stroke-linecap="round"/>
+<circle class="node" cx="505" cy="35" r="3" fill="#457C0B"/>
+<circle class="node" cx="1054" cy="35" r="3" fill="#178979"/>
+<text x="38" y="56" fill="#457C0B" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">PUBLIC ACTIVITY</text>
+<text x="581" y="56" fill="#457C0B" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">LANGUAGES BY CODE BYTES</text>
+<text x="38" y="118" fill="#172A20" font-family="Arial,sans-serif" font-size="41" font-weight="700">372</text>
+<text x="38" y="144" fill="#4A6857" font-family="Arial,sans-serif" font-size="12.5" font-weight="700">COMMITS · 2026</text>
+<text x="220" y="118" fill="#172A20" font-family="Arial,sans-serif" font-size="41" font-weight="700">9</text>
+<text x="220" y="144" fill="#4A6857" font-family="Arial,sans-serif" font-size="12.5" font-weight="700">PUBLIC REPOS</text>
+<text x="393" y="118" fill="#172A20" font-family="Arial,sans-serif" font-size="41" font-weight="700">32</text>
+<text x="393" y="144" fill="#4A6857" font-family="Arial,sans-serif" font-size="12.5" font-weight="700">REPO STARS</text>
+<text x="38" y="166" fill="#4A6857" font-family="Arial,sans-serif" font-size="11.5">Updated 13 NOV 2026 UTC</text>
+<rect x="582" y="73" width="468" height="12" rx="6" fill="#DDEADF"/>
+<rect clip-path="url(#languageBar)" x="582.00" y="73" width="176.68" height="12" fill="#78AC22"/>
+<rect clip-path="url(#languageBar)" x="758.68" y="73" width="125.48" height="12" fill="#219E91"/>
+<rect clip-path="url(#languageBar)" x="884.16" y="73" width="69.67" height="12" fill="#597FC6"/>
+<rect class="shimmer" clip-path="url(#languageBar)" x="520" y="73" width="50" height="12" fill="#FFFFFF" opacity=".11"/>
+<circle cx="587" cy="116" r="4" fill="#78AC22"/>
+<text x="601" y="121" fill="#172A20" font-family="Arial,sans-serif" font-size="16.5">Python 37.8%</text>
+<circle cx="824" cy="116" r="4" fill="#219E91"/>
+<text x="838" y="121" fill="#172A20" font-family="Arial,sans-serif" font-size="16.5">Rust 26.8%</text>
+<circle cx="587" cy="150" r="4" fill="#597FC6"/>
+<text x="601" y="155" fill="#172A20" font-family="Arial,sans-serif" font-size="16.5">TypeScript 14.9%</text>
 </svg>
