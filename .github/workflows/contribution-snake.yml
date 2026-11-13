@@ -1,0 +1,42 @@
+name: Refresh contribution snake
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 2 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/contribution-snake.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: Generate and publish contribution snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate theme-matched animated SVGs from real contributions
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: kavisara-samarakoon
+          outputs: |
+            dist/contribution-snake-dark.svg?color_snake=#C9FF2E&color_dots=#0D1117,#1A3222,#306D31,#65AF37,#B7F443
+            dist/contribution-snake-light.svg?color_snake=#467C09&color_dots=#EBEDF0,#E0F6C2,#B2E878,#74C449,#438A19
+
+      - name: Publish animation assets to a separate output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: "chore(profile): refresh contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
