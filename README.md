@@ -440,11 +440,8 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/github-live-metrics-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner/github-live-metrics-light.svg" />
-    <img src="./assets/banner/github-live-metrics-dark.svg" alt="Public GitHub activity: last 90 days of authored commits on default branches, repository stars, public repository count, and top languages by code bytes" width="100%" />
+    <img src="./assets/banner/github-live-metrics-dark.svg" alt="GitHub public activity: authored commits since January 1 of the current year on public repository default branches, stars, public repository count, and top languages by code bytes" width="100%" />
   </picture>
-</p>
-<p align="center">
-  <sub>Refreshed daily from GitHub · Public repositories only · Default-branch commits · Languages by code bytes</sub>
 </p>
 
 ---
