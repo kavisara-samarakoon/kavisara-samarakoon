@@ -433,7 +433,6 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
 
 </details>
 
----
 
 <!-- Live public GitHub metrics (daily GitHub Actions refresh) -->
 <p align="center">
@@ -443,8 +442,6 @@ Next.js · Spring Boot · PostgreSQL · REST API · Auth Foundation · Wishlist 
     <img src="./assets/banner/github-live-metrics-dark.svg" alt="GitHub public activity: authored commits since January 1 of the current year on public repository default branches, stars, public repository count, and top languages by code bytes" width="100%" />
   </picture>
 </p>
-
----
 
 # 📚 More About My Work
 
