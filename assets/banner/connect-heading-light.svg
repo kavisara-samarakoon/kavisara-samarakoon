@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="46" viewBox="0 0 320 46" role="img" aria-labelledby="title">
+  <title id="title">Connect With Me</title>
+  <defs>
+    <linearGradient id="box" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8cd8ee"/><stop offset="1" stop-color="#17638c"/></linearGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#62b4d9"/><stop offset="1" stop-color="#1d6d9a"/></linearGradient>
+  </defs>
+  <g transform="translate(7 7)">
+    <rect x="13" y="23" width="6" height="8" rx="1" fill="#9b805b"/>
+    <path d="M2 24V11A9 9 0 0 1 11 2H22A9 9 0 0 1 31 11V24Z" fill="url(#box)"/>
+    <path d="M2 24V11A9 9 0 0 1 20 11V24Z" fill="url(#front)"/>
+    <path d="M23 2V17" stroke="#e23b2d" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22 2H31V8H22Z" fill="#ff533b"/>
+    <path d="M5 9Q8 4 12 5" stroke="#b9edff" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="46" y="34" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="32" font-weight="600" fill="#1F2328">Connect With Me</text>
+</svg>
