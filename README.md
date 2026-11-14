@@ -64,6 +64,15 @@ I am a **BSc (Hons) Computer Networks undergraduate at NSBM Green University** a
 
 I focus on **defensive cybersecurity, network engineering, Linux systems, ARM64 labs, and secure software**, learning through practical projects and technical documentation.
 
+<!-- Live public GitHub metrics (daily GitHub Actions refresh) -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/github-live-metrics-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner/github-live-metrics-light.svg" />
+    <img src="./assets/banner/github-live-metrics-dark.svg" alt="GitHub public activity: authored commits since January 1 of the current year on public repository default branches, stars, public repository count, and top languages by code bytes" width="100%" />
+  </picture>
+</p>
+
 ---
 
 ## 🎯 Current Focus
@@ -281,15 +290,6 @@ See [GHOST's repository](https://github.com/kavisara-samarakoon/ghost) for full 
 
 </details>
 
-
-<!-- Live public GitHub metrics (daily GitHub Actions refresh) -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/github-live-metrics-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/banner/github-live-metrics-light.svg" />
-    <img src="./assets/banner/github-live-metrics-dark.svg" alt="GitHub public activity: authored commits since January 1 of the current year on public repository default branches, stars, public repository count, and top languages by code bytes" width="100%" />
-  </picture>
-</p>
 
 ---
 
