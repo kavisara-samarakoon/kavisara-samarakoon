@@ -293,7 +293,7 @@ See [GHOST's repository](https://github.com/kavisara-samarakoon/ghost) for full 
 
 ---
 
-<h3 align="center">📫 Connect With Me</h3>
+<h1 align="center">📫 Connect With Me</h1>
 
 <p align="center">
   <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
