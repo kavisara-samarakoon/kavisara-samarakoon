@@ -293,7 +293,13 @@ See [GHOST's repository](https://github.com/kavisara-samarakoon/ghost) for full 
 
 ---
 
-<h1 align="center">📫 Connect With Me</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner/connect-heading-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner/connect-heading-light.svg" />
+    <img src="./assets/banner/connect-heading-dark.svg" alt="📫 Connect With Me" width="320" height="46" />
+  </picture>
+</p>
 
 <p align="center">
   <a href="https://kavisara-samarakoon-portfolio.vercel.app/">
