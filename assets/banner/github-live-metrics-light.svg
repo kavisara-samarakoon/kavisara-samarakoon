@@ -32,14 +32,14 @@
 <text x="399" y="90" fill="#14281C" font-family="Arial,sans-serif" font-size="38" font-weight="700">41</text>
 <text x="399" y="111" fill="#516B58" font-family="Arial,sans-serif" font-size="12.5" font-weight="700">REPO STARS</text>
 <rect x="581" y="64" width="473" height="10" rx="5" fill="#D9E8DD"/>
-<rect clip-path="url(#barClip)" x="581.00" y="64" width="107.53" height="10" fill="#6BA52B"/>
-<rect clip-path="url(#barClip)" x="688.53" y="64" width="90.70" height="10" fill="#199989"/>
-<rect clip-path="url(#barClip)" x="779.23" y="64" width="80.57" height="10" fill="#5A82CD"/>
+<rect clip-path="url(#barClip)" x="581.00" y="64" width="117.50" height="10" fill="#6BA52B"/>
+<rect clip-path="url(#barClip)" x="698.50" y="64" width="88.22" height="10" fill="#199989"/>
+<rect clip-path="url(#barClip)" x="786.73" y="64" width="78.37" height="10" fill="#5A82CD"/>
 <rect class="scan" clip-path="url(#barClip)" x="560" y="64" width="42" height="10" fill="#FFFFFF" opacity=".10"/>
 <circle cx="586" cy="97" r="4" fill="#6BA52B"/>
-<text x="599" y="102" fill="#14281C" font-family="Arial,sans-serif" font-size="16">Python 22.7%</text>
+<text x="599" y="102" fill="#14281C" font-family="Arial,sans-serif" font-size="16">Python 24.8%</text>
 <circle cx="821" cy="97" r="4" fill="#199989"/>
-<text x="834" y="102" fill="#14281C" font-family="Arial,sans-serif" font-size="16">Java 19.2%</text>
+<text x="834" y="102" fill="#14281C" font-family="Arial,sans-serif" font-size="16">Java 18.7%</text>
 <circle cx="586" cy="125" r="4" fill="#5A82CD"/>
-<text x="599" y="130" fill="#14281C" font-family="Arial,sans-serif" font-size="16">TypeScript 17.0%</text>
+<text x="599" y="130" fill="#14281C" font-family="Arial,sans-serif" font-size="16">TypeScript 16.6%</text>
 </svg>
